@@ -1,0 +1,163 @@
+Species,Sub-species,Source Acronym,Source,Source Release Date,5E-compatible Sub-species,2024-appropriate Sub-species
+Aarakocra,Aarakocra (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Aarakocra,Aarakocra (EEPC),EEPC,Elemental Evil Player's Companion,20150310,TRUE,FALSE
+Aasimar,Standard Aasimar,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Aasimar,Consumption Aasimar,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Aasimar,Radiant Aasimar,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Aasimar,Shroud Aasimar,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Aasimar,Fernian Aasimar ,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Aasimar,Mabaran Aasimar,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Aasimar,Variant Aasimar,DMG14,Dungeon Master’s Guide (2014),20141209,TRUE,FALSE
+Bugbear,Old Bugbear,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Bugbear,Dhakaani Guul’dar,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Centaur,Centaur,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Changeling,Changeling (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Changeling,Changeling (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Changeling,Changeling (EFotA),EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Custom Lineage,Custom Lineage with Darkvision,TCoE,Tasha’s Cauldron of Everything,20201117,TRUE,FALSE
+Custom Lineage,Custom Lineage with Skill Proficiency,TCoE,Tasha’s Cauldron of Everything,20201117,TRUE,FALSE
+Dhampir,Dhampir,VRGtR,Van Richten’s Guide to Ravenloft,20210518,TRUE,FALSE
+Dragonborn,Black Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Blue Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Brass Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Bronze Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Copper Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Gold Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Green Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Red Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Silver Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,White Dragonborn (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dragonborn,Black Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Blue Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Brass Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Bronze Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Copper Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Gold Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Green Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Red Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,Silver Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dragonborn,White Dragonborn (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Duskling,Duskling,DDB,D&D Beyond Drops,20260903,FALSE,TRUE
+Dwarf,Duergar/Gray Elf (SCAG),SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Dwarf,Hill Dwarf,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dwarf,Mountain Dwarf,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Dwarf,Standard Dwarf,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Dwarf,Duergar/Gray Elf (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Dwarf,Mark of Warding Dwarf,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Elf,Drow Elf (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Elf,High Elf (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Elf,Wood Elf (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Elf,Drow Elf (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Elf,High Elf (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Elf,Wood Elf (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Elf,Eladrin Elf (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Elf,Sea Elf,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Elf,Shadar-kai,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Elf,Mark of Shadow Elf,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Elf,Eladrin Elf (DMG14),DMG14,Dungeon Master’s Guide (2014),20141209,TRUE,FALSE
+Fairy,Fairy,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Firbolg,Firbolg,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Genasi,Air Genasi (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Genasi,Earth Genasi (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Genasi,Fire Genasi (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Genasi,Water Genasi (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Genasi,Air Genasi (EEPC),EEPC,Elemental Evil Player's Companion,20150310,TRUE,FALSE
+Genasi,Earth Genasi (EEPC),EEPC,Elemental Evil Player's Companion,20150310,TRUE,FALSE
+Genasi,Fire Genasi (EEPC),EEPC,Elemental Evil Player's Companion,20150310,TRUE,FALSE
+Genasi,Water Genasi (EEPC),EEPC,Elemental Evil Player's Companion,20150310,TRUE,FALSE
+Geppettin,Bisque Geppettin,VSoS-PP,Valda’s Spire of Secrets: Player Pack,20250401,FALSE,TRUE
+Geppettin,Marionette Geppettin,VSoS-PP,Valda’s Spire of Secrets: Player Pack,20250401,FALSE,TRUE
+Geppettin,Plushie Geppettin,VSoS-PP,Valda’s Spire of Secrets: Player Pack,20250401,FALSE,TRUE
+Githyanki,Githyanki,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Githzerai,Githzerai,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Gnoll,Gnoll,FoE-Q,Frontiers of Eberron: Quickstone,20260811,FALSE,TRUE
+Gnome,Forest Gnome (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Gnome,Rock Gnome (PHB14),PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Gnome,Forest Gnome (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Gnome,Rock Gnome (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Gnome,Deep Gnome (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Gnome,Deep Gnome (EEPC),EEPC,Elemental Evil Player's Companion,20150310,TRUE,FALSE
+Gnome,Mark of Scribing Gnome,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Goblin,Old Goblin,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Goblin,Dhakaani Golin’dar,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Goliath,Cloud Goliath,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Goliath,Fire Goliath,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Goliath,Frost Goliath,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Goliath,Hill Goliath,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Goliath,Stone Goliath,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Goliath,Storm Goliath,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Goliath,Standard Goliath (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Goliath,Old Goliath (EEPC),EEPC,Elemental Evil Player's Companion,20150310,TRUE,FALSE
+Grung,Grung,OGA,One Grung Above,20171011,TRUE,FALSE
+Half-Elf,Aquatic Half-Elf,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Half-Elf,Drow Half-Elf,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Half-Elf,High Half-Elf,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Half-Elf,Wood Half-Elf,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Half-Elf,Old Half-Elf,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Half-Elf,Mark of Detection Half-Elf,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Half-Elf,Mark of Storm Half-Elf,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Half-Elf,Khoravar,EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Half-Orc,Old Half-Orc,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Half-Orc,Jhorgun'taal,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Half-Orc,Mark of Finding Half-Orc,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Halfling,Ghostwise Halfling,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Halfling,Lightfoot Halfling,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Halfling,Stout Halfling,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Halfling,Standard Halfling,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Halfling,Mark of Healing Halfling,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Halfling,Mark of Hospitality Halfling,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Harengon,Harengon,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Hexblood,Hexblood,VRGtR,Van Richten’s Guide to Ravenloft,20210518,TRUE,FALSE
+Hobgoblin,Old Hobgoblin,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Hobgoblin,Dhakaani Ghaal’dar,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Human,Common Human,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Human,Variant Human,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Human,Standard Human,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Human,Mark of Finding Human,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Human,Mark of Handling Human,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Human,Mark of Making Human,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Human,Mark of Passage Human,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Human,Mark of Sentinel Human,ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Kalashtar,Kalashtar (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Kalashtar,Kalashtar (EFotA),EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Kenku,Kenku,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Kobold,Crafty Kobold,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Kobold,Defiant Kobold,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Kobold,Sorcerous Kobold,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Lizardfolk,Lizardfolk,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Mandrake,Mandrake,VSoS-PP,Valda’s Spire of Secrets: Player Pack,20250401,FALSE,TRUE
+Merfolk,Merfolk,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Minotaur,Minotaur,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Orc,Orc (PHB24),PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Orc,Orc (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Orc,Orc (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Reborn,Reborn,VRGtR,Van Richten’s Guide to Ravenloft,20210518,TRUE,FALSE
+Ruinbound,Ruinbound,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Sahuagin,Sahuagin,ExE24,Exploring Eberron (2024),20260127,FALSE,TRUE
+Satyr,Satyr,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Shifter,Beasthide Shifter (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Shifter,Longtooth Shifter (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Shifter,Swiftstride Shifter (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Shifter,Wildhunt Shifter (MPMM),MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Shifter,Beasthide Shifter (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Shifter,Longtooth Shifter (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Shifter,Swiftstride Shifter (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Shifter,Wildhunt Shifter (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Shifter,Beasthide Shifter (EFotA),EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Shifter,Longtooth Shifter (EFotA),EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Shifter,Swiftstride Shifter (EFotA),EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Shifter,Wildhunt Shifter (EFotA),EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Tabaxi,Tabaxi,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Tiefling,Feral Tiefling,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Tiefling,Variant Feral Tiefling,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Tiefling,Variant Tiefling,SCAG,Sword Coast Adventurer's Guide,20151103,TRUE,FALSE
+Tiefling,Old Tiefling,PHB14,Player’s Handbook (2014),20140819,TRUE,FALSE
+Tiefling,Abyssal Tiefling,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Tiefling,Chthonic Tiefling,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Tiefling,Infernal Tiefling,PHB24,Player’s Handbook (2024),20240917,FALSE,TRUE
+Tortle,Tortle,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Triton,Triton,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE
+Verdan,Verdan,AI,Acquisitions Incorporated,20190618,TRUE,FALSE
+Warforged,Warforged (ERftLW),ERftLW,Eberron: Rising from the Last War,20191119,TRUE,FALSE
+Warforged,Warforged (EFotA),EFotA,Eberron: Forge of the Artificer,20251209,FALSE,TRUE
+Yuan-ti,Yuan-ti,MPMM,Mordenkainen Presents: Monsters of the Multiverse,20220517,TRUE,TRUE

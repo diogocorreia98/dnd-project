@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" role="img" aria-label="Custom lineage unknown ancestry symbol">
+  <defs>
+    <linearGradient id="mark" x1="31%" y1="16%" x2="75%" y2="88%">
+      <stop offset="0%" stop-color="#fff0c0"/>
+      <stop offset="44%" stop-color="#c89d52"/>
+      <stop offset="100%" stop-color="#6d4524"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <path
+    filter="url(#softShadow)"
+    d="M303 429c12-169 119-277 289-277 168 0 279 105 279 257 0 118-53 182-147 250-72 51-105 96-105 176v74H434v-89c0-117 49-188 141-254 72-52 104-92 104-153 0-62-45-104-115-104-75 0-124 49-131 132L303 429Zm119 843c0-65 49-112 117-112s116 47 116 112c0 64-48 112-116 112s-117-48-117-112Z"
+    fill="url(#mark)"
+    stroke="#f8e8b8"
+    stroke-width="14"
+    stroke-linejoin="round"
+  />
+</svg>

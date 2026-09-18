@@ -1,0 +1,797 @@
+﻿[
+    {
+        "species":  "Aarakocra",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Aarakocra",
+        "version":  "Elemental Evil Player\u0027s Companion",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Aasimar",
+        "version":  "Player’s Handbook",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Aasimar",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Shroud Aasimar"
+    },
+    {
+        "species":  "Aasimar",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Consumption Aasimar"
+    },
+    {
+        "species":  "Aasimar",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Radiant Aasimar"
+    },
+    {
+        "species":  "Aasimar",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  "Fernian Aasimar"
+    },
+    {
+        "species":  "Aasimar",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  "Mabaran Aasimar"
+    },
+    {
+        "species":  "Aasimar",
+        "version":  "Dungeon Master’s Guide (2014)",
+        "subSpecies":  "Variant Aasimar"
+    },
+    {
+        "species":  "Bugbear",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Bugbear",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  "Dhakaani Guul’dar"
+    },
+    {
+        "species":  "Centaur",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Changeling",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Changeling",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Changeling",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Custom Lineage",
+        "version":  "Tasha’s Cauldron of Everything",
+        "subSpecies":  "Custom Lineage with Darkvision"
+    },
+    {
+        "species":  "Custom Lineage",
+        "version":  "Tasha’s Cauldron of Everything",
+        "subSpecies":  "Custom Lineage with Skill Proficiency"
+    },
+    {
+        "species":  "Dhampir",
+        "version":  "Van Richten’s Guide to Ravenloft",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Black Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Blue Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Brass Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Bronze Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Copper Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Gold Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Green Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Red Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Silver Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "White Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Black Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Blue Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Brass Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Bronze Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Copper Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Gold Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Green Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Red Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Silver Dragonborn"
+    },
+    {
+        "species":  "Dragonborn",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "White Dragonborn"
+    },
+    {
+        "species":  "Duskling",
+        "version":  "D\u0026D Beyond Drops",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Dwarf",
+        "version":  "Player’s Handbook",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Dwarf",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Duergar"
+    },
+    {
+        "species":  "Dwarf",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Hill Dwarf"
+    },
+    {
+        "species":  "Dwarf",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Mountain Dwarf"
+    },
+    {
+        "species":  "Dwarf",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Gray Dwarf"
+    },
+    {
+        "species":  "Dwarf",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Warding Dwarf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "High Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Wood Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Drow Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Eladrin"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "High Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Wood Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Drow Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Dungeon Master’s Guide (2014)",
+        "subSpecies":  "Eladrin Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Shadow Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Sea Elf"
+    },
+    {
+        "species":  "Elf",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Shadar-kai"
+    },
+    {
+        "species":  "Fairy",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Firbolg",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Air Genasi"
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Earth Genasi"
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Fire Genasi"
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Water Genasi"
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Elemental Evil Player\u0027s Companion",
+        "subSpecies":  "Air Genasi"
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Elemental Evil Player\u0027s Companion",
+        "subSpecies":  "Earth Genasi"
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Elemental Evil Player\u0027s Companion",
+        "subSpecies":  "Fire Genasi"
+    },
+    {
+        "species":  "Genasi",
+        "version":  "Elemental Evil Player\u0027s Companion",
+        "subSpecies":  "Water Genasi"
+    },
+    {
+        "species":  "Geppettin",
+        "version":  "Valda’s Spire of Secrets: Player Pack",
+        "subSpecies":  "Bisque Geppettin"
+    },
+    {
+        "species":  "Geppettin",
+        "version":  "Valda’s Spire of Secrets: Player Pack",
+        "subSpecies":  "Marionette Geppettin"
+    },
+    {
+        "species":  "Geppettin",
+        "version":  "Valda’s Spire of Secrets: Player Pack",
+        "subSpecies":  "Plushie Geppettin"
+    },
+    {
+        "species":  "Githyanki",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Githzerai",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Gnoll",
+        "version":  "Frontiers of Eberron: Quickstone",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Gnome",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Rock Gnome"
+    },
+    {
+        "species":  "Gnome",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Forest Gnome"
+    },
+    {
+        "species":  "Gnome",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Deep Gnome"
+    },
+    {
+        "species":  "Gnome",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Rock Gnome"
+    },
+    {
+        "species":  "Gnome",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Forest Gnome"
+    },
+    {
+        "species":  "Gnome",
+        "version":  "Elemental Evil Player\u0027s Companion",
+        "subSpecies":  "Deep Gnome"
+    },
+    {
+        "species":  "Gnome",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Scribing Gnome"
+    },
+    {
+        "species":  "Goblin",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Goblin",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  "Dhakaani Golin’dar"
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Cloud Goliath"
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Fire Goliath"
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Frost Goliath"
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Hill Goliath"
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Stone Goliath"
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Storm Goliath"
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Goliath",
+        "version":  "Elemental Evil Player\u0027s Companion",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Grung",
+        "version":  "One Grung Above",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Wood Half-Elf"
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "High Half-Elf"
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Drow Half-Elf"
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Aquatic Half-Elf"
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Detection Half-Elf"
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Storm Half-Elf"
+    },
+    {
+        "species":  "Half-Elf",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  "Khoravar"
+    },
+    {
+        "species":  "Half-Orc",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Half-Orc",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  "Jhorgun\u0027taal (Half-orc)"
+    },
+    {
+        "species":  "Half-Orc",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Finding Half-Orc"
+    },
+    {
+        "species":  "Halfling",
+        "version":  "Player’s Handbook",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Halfling",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Lightfoot Halfling"
+    },
+    {
+        "species":  "Halfling",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Stout Halfling"
+    },
+    {
+        "species":  "Halfling",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Ghostwise Halfling"
+    },
+    {
+        "species":  "Halfling",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Healing Halfling"
+    },
+    {
+        "species":  "Halfling",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Hospitality Halfling"
+    },
+    {
+        "species":  "Harengon",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Hexblood",
+        "version":  "Van Richten’s Guide to Ravenloft",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Hobgoblin",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Hobgoblin",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  "Dhakaani Ghaal’dar (Hobgoblin)"
+    },
+    {
+        "species":  "Human",
+        "version":  "Player’s Handbook",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Human",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Common Human"
+    },
+    {
+        "species":  "Human",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  "Variant Human"
+    },
+    {
+        "species":  "Human",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Finding Human"
+    },
+    {
+        "species":  "Human",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Handling Human"
+    },
+    {
+        "species":  "Human",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Making Human"
+    },
+    {
+        "species":  "Human",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Passage Human"
+    },
+    {
+        "species":  "Human",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Mark of Sentinel Human"
+    },
+    {
+        "species":  "Kalashtar",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Kalashtar",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Kenku",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Kobold",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Crafty Kobold"
+    },
+    {
+        "species":  "Kobold",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Defiant Kobold"
+    },
+    {
+        "species":  "Kobold",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  "Sorcerous Kobold"
+    },
+    {
+        "species":  "Lizardfolk",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Mandrake",
+        "version":  "Valda’s Spire of Secrets: Player Pack",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Merfolk",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Minotaur",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Orc",
+        "version":  "Player’s Handbook",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Orc",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Orc",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Orc of Eberron"
+    },
+    {
+        "species":  "Reborn",
+        "version":  "Van Richten’s Guide to Ravenloft",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Ruinbound",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Sahuagin",
+        "version":  "Exploring Eberron (2024)",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Satyr",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  "Beasthide Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  "Longtooth Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  "Swiftstride Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  "Wildhunt Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Beasthide Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Longtooth Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Swiftstride Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  "Wildhunt Shifter"
+    },
+    {
+        "species":  "Shifter",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Tabaxi",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Tiefling",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Abyssal Tiefling"
+    },
+    {
+        "species":  "Tiefling",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Chthonic Tiefling"
+    },
+    {
+        "species":  "Tiefling",
+        "version":  "Player’s Handbook",
+        "subSpecies":  "Infernal Tiefling"
+    },
+    {
+        "species":  "Tiefling",
+        "version":  "Player’s Handbook (2014)",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Tiefling",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Feral Tiefling"
+    },
+    {
+        "species":  "Tiefling",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Variant Feral Tiefling"
+    },
+    {
+        "species":  "Tiefling",
+        "version":  "Sword Coast Adventurer\u0027s Guide",
+        "subSpecies":  "Variant Tiefling"
+    },
+    {
+        "species":  "Tortle",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Triton",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Verdan",
+        "version":  "Acquisitions Incorporated",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Warforged",
+        "version":  "Eberron: Forge of the Artificer",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Warforged",
+        "version":  "Eberron: Rising from the Last War",
+        "subSpecies":  ""
+    },
+    {
+        "species":  "Yuan-ti",
+        "version":  "Mordenkainen Presents: Monsters of the Multiverse",
+        "subSpecies":  ""
+    }
+]

@@ -1,0 +1,615 @@
+{
+  "sources": [
+    {
+      "id": "players-handbook",
+      "name": "Player's Handbook"
+    },
+    {
+      "id": "eberron-forge-of-the-artificer",
+      "name": "Eberron: Forge of the Artificer"
+    },
+    {
+      "id": "dnd-beyond-drops",
+      "name": "D&D Beyond Drops"
+    },
+    {
+      "id": "valdas-spire-of-secrets-player-pack",
+      "name": "Valda's Spire of Secrets: Player Pack"
+    },
+    {
+      "id": "exploring-eberron-2024",
+      "name": "Exploring Eberron (2024)"
+    },
+    {
+      "id": "frontiers-of-eberron-quickstone",
+      "name": "Frontiers of Eberron: Quickstone"
+    },
+    {
+      "id": "dungeon-masters-guide-2014",
+      "name": "Dungeon Master's Guide (2014)"
+    },
+    {
+      "id": "players-handbook-2014",
+      "name": "Player's Handbook (2014)"
+    },
+    {
+      "id": "elemental-evil-players-companion",
+      "name": "Elemental Evil Player's Companion"
+    },
+    {
+      "id": "mordenkainen-presents-monsters-of-the-multiverse",
+      "name": "Mordenkainen Presents: Monsters of the Multiverse"
+    },
+    {
+      "id": "eberron-rising-from-the-last-war",
+      "name": "Eberron: Rising from the Last War"
+    },
+    {
+      "id": "tashas-cauldron-of-everything",
+      "name": "Tasha's Cauldron of Everything"
+    },
+    {
+      "id": "van-richtens-guide-to-ravenloft",
+      "name": "Van Richten's Guide to Ravenloft"
+    },
+    {
+      "id": "acquisitions-incorporated",
+      "name": "Acquisitions Incorporated"
+    },
+    {
+      "id": "one-grung-above",
+      "name": "One Grung Above"
+    },
+    {
+      "id": "sword-coast-adventurer-s-guide",
+      "name": "Sword Coast Adventurer's Guide"
+    }
+  ],
+  "species": [
+    {
+      "id": "aasimar",
+      "name": "Aasimar",
+      "description": "Aasimar are mortals who carry a spark of the Upper Planes within their souls.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "description": "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "description": "Dwarves were raised from the earth in the elder days by a deity of the forge.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "description": "The elves' curiosity led many of them to explore other planes of existence.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "high-elf",
+      "name": "High Elf",
+      "baseSpecies": "Elf",
+      "subSpecies": true,
+      "description": "High elves have a keen mind and a mastery of at least the basics of magic.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "wood-elf",
+      "name": "Wood Elf",
+      "baseSpecies": "Elf",
+      "subSpecies": true,
+      "description": "Wood elves have keen senses and intuition, and their fleet feet carry them quickly and stealthily through their native forests.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "drow-elf-2024",
+      "name": "Drow Elf",
+      "baseSpecies": "Elf",
+      "subSpecies": true,
+      "description": "Drow are elves that are infused with the magic of the Underdark.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "description": "Gnomes are magic folk created by gods of invention, illusions, and life underground.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "goliath",
+      "name": "Goliath",
+      "description": "Goliaths are distant descendants of giants that tower over most folk.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "description": "Halflings possess an adventurous spirit that leads them on journeys of discovery.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "description": "Found throughout the multiverse, humans are as varied as they are numerous.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "description": "Orcs have gifts that help them wander great plains, vast caverns, and churning seas.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "description": "Tieflings are either born in the Lower Planes or have fiendish ancestors.",
+      "sourceId": "players-handbook"
+    },
+    {
+      "id": "changeling",
+      "name": "Changeling",
+      "description": "With ever-changing appearances, Changelings reside in many societies undetected.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "kalashtar",
+      "name": "Kalashtar",
+      "description": "Kalashtar are the union of humanity and renegade spirits from the plane of dreams.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "khoravar",
+      "name": "Khoravar",
+      "description": "Khoravar are descended from humans and elves and have developed their own identity.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "shifter",
+      "name": "Shifter",
+      "description": "Shifters descend from people who contracted full or partial lycanthropy.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "shifter-2014",
+      "name": "Shifter",
+      "description": "Shifters descend from people who contracted full or partial lycanthropy.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "warforged",
+      "name": "Warforged",
+      "description": "Warforged are mechanical beings built as weapons to fight in the Last War.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "duskling",
+      "name": "Duskling",
+      "description": "Dusklings use the magic of the Feywild to suffuse themselves with magical effects.",
+      "sourceId": "dnd-beyond-drops"
+    },
+    {
+      "id": "geppettin",
+      "name": "Geppettin",
+      "description": "Geppettin resemble living playthings made of wood, cloth, or porcelain.",
+      "sourceId": "valdas-spire-of-secrets-player-pack"
+    },
+    {
+      "id": "mandrake",
+      "name": "Mandrake",
+      "description": "Mandrakes are green emissaries who make peace between animal and plant realms.",
+      "sourceId": "valdas-spire-of-secrets-player-pack"
+    },
+    {
+      "id": "dhakaani-guuldar-bugbear",
+      "name": "Dhakaani Guul'dar",
+      "baseSpecies": "Bugbear",
+      "description": "Dhakaani bugbears are known as guul'dar and are celebrated for their strength.",
+      "sourceId": "exploring-eberron-2024"
+    },
+    {
+      "id": "gnoll",
+      "name": "Gnoll",
+      "description": "Gnolls were once hyenas infused with malefic power by archfiends of war and the wild.",
+      "sourceId": "frontiers-of-eberron-quickstone"
+    },
+    {
+      "id": "dhakaani-golindar-goblin",
+      "name": "Dhakaani Golin'dar",
+      "baseSpecies": "Goblin",
+      "description": "Dhakaani goblins are known as golin'dar and are respected for their smithing.",
+      "sourceId": "exploring-eberron-2024"
+    },
+    {
+      "id": "jhorguntaal-half-orc",
+      "name": "Jhorgun'taal",
+      "baseSpecies": "Half-orc",
+      "description": "Jhorgun'taal are celebrated as a symbol of the bond between orcs and humans.",
+      "sourceId": "exploring-eberron-2024"
+    },
+    {
+      "id": "dhakaani-ghaaldar-hobgoblin",
+      "name": "Dhakaani Ghaal'dar",
+      "baseSpecies": "Hobgoblin",
+      "description": "Dhakaani hobgoblins are known as ghaal'dar, known for their versatility and vision.",
+      "sourceId": "exploring-eberron-2024"
+    },
+    {
+      "id": "kalamer-landwalker-merfolk",
+      "name": "Kalamer Landwalker",
+      "baseSpecies": "Merfolk",
+      "description": "Kalamer Landwalkers are merfolk who embrace life above the water.",
+      "sourceId": "exploring-eberron-2024"
+    },
+    {
+      "id": "ruinbound",
+      "name": "Ruinbound",
+      "description": "A Ruinbound is born with a personal symbiont, an unnatural entity bound to the child.",
+      "sourceId": "exploring-eberron-2024"
+    },
+    {
+      "id": "sahuagin",
+      "name": "Sahuagin",
+      "description": "The Sahuagin are an ancient species spawned in the ocean depths.",
+      "sourceId": "exploring-eberron-2024"
+    },
+    {
+      "id": "variant-aasimar",
+      "name": "Variant Aasimar",
+      "baseSpecies": "Aasimar",
+      "description": "Aasimar often attempt to to right wrongs and defend goodness on the Material Plane.",
+      "sourceId": "dungeon-masters-guide-2014"
+    },
+    {
+      "id": "dragonborn-2014",
+      "name": "Dragonborn",
+      "description": "Dragonborn look like dragons in humanoid form, though they lack wings or a tail.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "drow-elf",
+      "name": "Drow Elf",
+      "baseSpecies": "Elf",
+      "description": "Drow are elves that are infused with the magic of the Underdark.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "hill-dwarf",
+      "name": "Hill Dwarf",
+      "baseSpecies": "Dwarf",
+      "description": "Hill dwarves have keen senses, deep intuition, and remarkable resilience.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "eladrin-elf",
+      "name": "Eladrin Elf",
+      "baseSpecies": "Elf",
+      "description": "Creatures of magic with strong ties to nature, eladrin live in the Feywild.",
+      "sourceId": "dungeon-masters-guide-2014"
+    },
+    {
+      "id": "forest-gnome",
+      "name": "Forest Gnome",
+      "baseSpecies": "Gnome",
+      "description": "A gnome's energy and enthusiasm for living shines through every inch of their body.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "half-elf",
+      "name": "Half-Elf",
+      "description": "Half-elves combine what some say are the best qualities of their parents.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "half-orc",
+      "name": "Half-Orc",
+      "description": "Some half-orcs rise to become proud leaders, while others become adventurers.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "lightfoot-halfling",
+      "name": "Lightfoot Halfling",
+      "baseSpecies": "Halfling",
+      "description": "Lightfoot halflings can easily hide from notice, even using others as cover.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "human-2014",
+      "name": "Human",
+      "description": "Humans are the innovators, the achievers, and the pioneers of the worlds.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "tiefling-2014",
+      "name": "Tiefling",
+      "description": "Tieflings are gifted with magic from the hells but chart their own course in life.",
+      "sourceId": "players-handbook-2014"
+    },
+    {
+      "id": "aarakocra",
+      "name": "Aarakocra",
+      "description": "Sequestered in high mountains and atop tall trees, the aarakocra evoke wonder.",
+      "sourceId": "elemental-evil-players-companion"
+    },
+    {
+      "id": "air-genasi",
+      "name": "Air Genasi",
+      "baseSpecies": "Genasi",
+      "description": "Genasi embody the elemental power of the Inner Planes, expressing it through their bodies, abilities, and connection to the elements.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "bugbear",
+      "name": "Bugbear",
+      "description": "Thanks to fey magic, bugbears are quiet skulkers despite their formidable builds.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "centaur",
+      "name": "Centaur",
+      "description": "Centaurs gallop through the multiverse and trace their origins to different realms.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "changeling-eberron-rising",
+      "name": "Changeling",
+      "description": "A changeling can shift its face and form with a thought as a form of expression.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "custom-lineage",
+      "name": "Custom Lineage",
+      "description": "You can select between a number of traits to represent your character's origin.",
+      "sourceId": "tashas-cauldron-of-everything"
+    },
+    {
+      "id": "dhampir",
+      "name": "Dhampir",
+      "description": "Dhampirs retain their grip on life yet are endlessly tested by vicious hungers.",
+      "sourceId": "van-richtens-guide-to-ravenloft"
+    },
+    {
+      "id": "earth-genasi",
+      "name": "Earth Genasi",
+      "baseSpecies": "Genasi",
+      "description": "Genasi embody the elemental power of the Inner Planes, expressing it through their bodies, abilities, and connection to the elements.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "fairy",
+      "name": "Fairy",
+      "description": "Infused with the Feywild's magic, fairies look like small elves with insectile wings.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "firbolg",
+      "name": "Firbolg",
+      "description": "Distant cousins of giants, the first firbolgs wandered the forests of the multiverse.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "fire-genasi",
+      "name": "Fire Genasi",
+      "baseSpecies": "Genasi",
+      "description": "Genasi embody the elemental power of the Inner Planes, expressing it through their bodies, abilities, and connection to the elements.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "githyanki",
+      "name": "Githyanki",
+      "baseSpecies": "Gith",
+      "description": "The lanky Gith complement their physical abilities with psionic power.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "githzerai",
+      "name": "Githzerai",
+      "baseSpecies": "Gith",
+      "description": "The lanky Gith complement their physical abilities with psionic power.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "description": "Goblins pursue their own destinies, escaping the plots of both archfey and gods.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "goliath-elemental-evil",
+      "name": "Goliath",
+      "description": "Goliaths are ferocious competitors and are driven to outdo their past efforts.",
+      "sourceId": "elemental-evil-players-companion"
+    },
+    {
+      "id": "harengon",
+      "name": "Harengon",
+      "description": "Harengons are keen rabbitfolk blessed with a little fey luck.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "hexblood",
+      "name": "Hexblood",
+      "description": "Hexbloods are individuals infused with eldritch magic, fey energy, or witchcraft.",
+      "sourceId": "van-richtens-guide-to-ravenloft"
+    },
+    {
+      "id": "hobgoblin",
+      "name": "Hobgoblin",
+      "description": "Hobgoblins trace their origins to the ancient courts of the Feywild.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "kalashtar-eberron-rising",
+      "name": "Kalashtar",
+      "description": "Kalashtar are created from a union of humanity and spirits from the plane of dreams.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "kenku",
+      "name": "Kenku",
+      "description": "Feathered folk who resemble ravens, kenku are blessed with observation and memory.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "kobold",
+      "name": "Kobold",
+      "description": "Kobolds are some of the smallest draconic creatures in the multiverse.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "lizardfolk",
+      "name": "Lizardfolk",
+      "description": "Lizardfolk are gifted with remarkable physical defenses and a connection to nature.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "description": "Minotaurs are barrel-chested humanoids with heads resembling those of bulls.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "orc-mordenkainen",
+      "name": "Orc",
+      "description": "Gruumsh's blessings have made orcs tireless guardians and mighty allies.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "reborn",
+      "name": "Reborn",
+      "description": "Reborn are individuals who have died yet, somehow, still live.",
+      "sourceId": "van-richtens-guide-to-ravenloft"
+    },
+    {
+      "id": "satyr",
+      "name": "Satyr",
+      "description": "Originating in the Feywild, satyrs thrive on the energy of merriment.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "beasthide-shifter",
+      "name": "Beasthide Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter-2014",
+      "subSpecies": true,
+      "description": "Beasthide shifters are stoic and solid, drawing strength from the beast within.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "longtooth-shifter",
+      "name": "Longtooth Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter",
+      "subSpecies": true,
+      "description": "Longtooth shifters are fierce and relentless, channeling the instincts of the beast within.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "longtooth-shifter-2014",
+      "name": "Longtooth Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter-2014",
+      "subSpecies": true,
+      "description": "Longtooth shifters are fierce and relentless, channeling the instincts of the beast within.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "beasthide-shifter-2024",
+      "name": "Beasthide Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter",
+      "subSpecies": true,
+      "description": "Beasthide shifters are stoic and solid, drawing strength from the beast within.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "swiftstride-shifter",
+      "name": "Swiftstride Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter",
+      "subSpecies": true,
+      "description": "Swiftstride shifters are quick and agile, drawing speed from the beast within.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "swiftstride-shifter-2014",
+      "name": "Swiftstride Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter-2014",
+      "subSpecies": true,
+      "description": "Swiftstride shifters are quick and agile, drawing speed from the beast within.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "wildhunt-shifter",
+      "name": "Wildhunt Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter",
+      "subSpecies": true,
+      "description": "Wildhunt shifters are keenly aware, drawing on the senses of the beast within.",
+      "sourceId": "eberron-forge-of-the-artificer"
+    },
+    {
+      "id": "wildhunt-shifter-2014",
+      "name": "Wildhunt Shifter",
+      "baseSpecies": "Shifter",
+      "variantId": "shifter-2014",
+      "subSpecies": true,
+      "description": "Wildhunt shifters are keenly aware, drawing on the senses of the beast within.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "tabaxi",
+      "name": "Tabaxi",
+      "description": "Created by the Cat Lord, Tabaxi are a varied people in both attitude and appearance.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "tortle",
+      "name": "Tortle",
+      "description": "Tortles live on many worlds, most often journeying up and down coasts and waterways.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "description": "Triton have extended their stewardship over the sea floor to the ocean's surface.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "verdan",
+      "name": "Verdan",
+      "description": "The verdan owe their existence to chaos, finding their way in an unfamiliar world.",
+      "sourceId": "acquisitions-incorporated"
+    },
+    {
+      "id": "warforged-eberron-rising",
+      "name": "Warforged",
+      "description": "Built as weapons, Warforged must now find a purpose beyond war.",
+      "sourceId": "eberron-rising-from-the-last-war"
+    },
+    {
+      "id": "water-genasi",
+      "name": "Water Genasi",
+      "baseSpecies": "Genasi",
+      "description": "Genasi embody the elemental power of the Inner Planes, expressing it through their bodies, abilities, and connection to the elements.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "yuan-ti",
+      "name": "Yuan-ti",
+      "description": "Each yuan-ti manifests their serpentine heritage in a variety of ways.",
+      "sourceId": "mordenkainen-presents-monsters-of-the-multiverse"
+    },
+    {
+      "id": "grung",
+      "name": "Grung",
+      "description": "Grungs are aggressive froglike humanoids found in rain forests and tropical jungles.",
+      "sourceId": "one-grung-above"
+    }
+  ]
+}

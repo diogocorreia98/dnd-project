@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>D&D Character Builder</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="landing-screen" class="screen active">
+      <div class="start-card">
+        <p class="eyebrow">Adventure Prep</p>
+        <h1>Create your character</h1>
+        <p>Build a party-ready adventurer by choosing a gender and species.</p>
+        <div class="primary-actions">
+          <button id="start-button" class="primary-button" type="button">Start</button>
+          <button id="settings-button" class="secondary-button" type="button">Settings</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="settings-screen" class="screen" hidden>
+      <div class="settings-card">
+        <p class="eyebrow">Options</p>
+        <h2>Settings</h2>
+        <button id="sub-species-settings-button" class="settings-option" type="button">
+          <strong>Sub-species Settings</strong>
+          <span>Choose which sub-species sources are available.</span>
+        </button>
+        <button id="settings-back-button" class="text-button" type="button">Back</button>
+      </div>
+    </div>
+
+    <div id="sub-species-settings-screen" class="screen" hidden>
+      <div class="settings-card">
+        <p class="eyebrow">Settings</p>
+        <h2>Sub-species Settings</h2>
+        <button id="enabled-sources-button" class="settings-option" type="button">
+          <strong>Enabled Sources</strong>
+          <span id="enabled-sources-summary">2024-appropriate sub-species</span>
+        </button>
+        <label class="toggle-option" for="dragonmarked-toggle">
+          <span>
+            <strong>Enable Dragonmarked Sub-species</strong>
+            <small>Include sub-species with a Mark of lineage.</small>
+          </span>
+          <input id="dragonmarked-toggle" type="checkbox" />
+        </label>
+        <button id="sub-species-settings-back-button" class="text-button" type="button">Back</button>
+      </div>
+    </div>
+
+    <div id="enabled-sources-screen" class="screen" hidden>
+      <div class="settings-card">
+        <p class="eyebrow">Sub-species Settings</p>
+        <h2>Enabled Sources</h2>
+        <div id="source-mode-list" class="source-mode-list"></div>
+        <button id="enabled-sources-back-button" class="text-button" type="button">Back</button>
+      </div>
+    </div>
+
+    <div id="app-shell" class="app-shell screen" hidden>
+      <aside class="sidebar" aria-label="Character builder">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">D20</span>
+          <div>
+            <p class="brand-kicker">Character Builder</p>
+            <h1>D&D Studio</h1>
+          </div>
+        </div>
+        <button id="back-to-home" class="text-button" type="button">Back to start</button>
+      </aside>
+
+      <main class="content">
+        <section id="species" class="page-section species-section" aria-label="Species selector">
+          <div class="page-heading compact">
+            <p class="eyebrow">Character</p>
+            <div>
+              <h2>Species</h2>
+              <p>Choose a gender, then swipe or scroll through the species.</p>
+            </div>
+          </div>
+
+          <section class="gender-panel" aria-label="Gender selector">
+            <div class="section-heading">
+              <h3>Gender</h3>
+              <p id="gender-status">Choose one to load matching portraits.</p>
+            </div>
+            <div class="gender-selector" id="gender-selector"></div>
+          </section>
+
+          <div class="gallery-shell">
+            <button class="gallery-control previous" type="button" id="gallery-previous" aria-label="Previous species">&lt;</button>
+            <div class="species-gallery" id="species-gallery" tabindex="0"></div>
+            <button class="gallery-control next" type="button" id="gallery-next" aria-label="Next species">&gt;</button>
+          </div>
+
+          <p class="selection-status" id="selection-status" aria-live="polite">Choose a gender to load the species carousel.</p>
+
+          <section class="sub-species-panel" id="sub-species-panel" aria-label="Sub-species selector" hidden>
+            <div class="section-heading">
+              <h3>Sub-species</h3>
+              <p id="sub-species-status">Choose a sub-species.</p>
+            </div>
+            <div class="sub-species-selector" id="sub-species-selector"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js?v=12"></script>
+  </body>
+</html>

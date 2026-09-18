@@ -1,0 +1,628 @@
+{
+  "presentations": [
+    "male",
+    "female",
+    "androgynous"
+  ],
+  "groups": [
+    {
+      "id": "aarakocra",
+      "name": "Aarakocra",
+      "imageVariants": {
+        "male": "./assets/species/aarakocra-male.png",
+        "female": "./assets/species/aarakocra-female.png",
+        "androgynous": "./assets/species/aarakocra-androgynous.png"
+      },
+      "speciesIds": [
+        "aarakocra"
+      ]
+    },
+    {
+      "id": "aasimar",
+      "name": "Aasimar",
+      "imageVariants": {
+        "male": "./assets/species/aasimar-male.png",
+        "female": "./assets/species/aasimar-female.png",
+        "androgynous": "./assets/species/aasimar-androgynous.png"
+      },
+      "speciesIds": [
+        "aasimar",
+        "variant-aasimar"
+      ]
+    },
+    {
+      "id": "bugbear",
+      "name": "Bugbear",
+      "imageVariants": {
+        "male": "./assets/species/bugbear-male.png",
+        "female": "./assets/species/bugbear-female.png",
+        "androgynous": "./assets/species/bugbear-androgynous.png"
+      },
+      "speciesIds": [
+        "dhakaani-guuldar-bugbear",
+        "bugbear"
+      ]
+    },
+    {
+      "id": "centaur",
+      "name": "Centaur",
+      "imageVariants": {
+        "male": "./assets/species/centaur-male.png",
+        "female": "./assets/species/centaur-female.png",
+        "androgynous": "./assets/species/centaur-androgynous.png"
+      },
+      "speciesIds": [
+        "centaur"
+      ]
+    },
+    {
+      "id": "changeling",
+      "name": "Changeling",
+      "imageVariants": {
+        "male": "./assets/species/changeling-male.png",
+        "female": "./assets/species/changeling-female.png",
+        "androgynous": "./assets/species/changeling-androgynous.png"
+      },
+      "speciesIds": [
+        "changeling",
+        "changeling-eberron-rising"
+      ]
+    },
+    {
+      "id": "custom-lineage",
+      "name": "Custom Lineage",
+      "imageVariants": {
+        "male": "./assets/species/custom-lineage.svg",
+        "female": "./assets/species/custom-lineage.svg",
+        "androgynous": "./assets/species/custom-lineage.svg"
+      },
+      "speciesIds": [
+        "custom-lineage"
+      ]
+    },
+    {
+      "id": "dhampir",
+      "name": "Dhampir",
+      "imageVariants": {
+        "male": "./assets/species/dhampir-male.png",
+        "female": "./assets/species/dhampir-female.png",
+        "androgynous": "./assets/species/dhampir-androgynous.png"
+      },
+      "speciesIds": [
+        "dhampir"
+      ]
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "imageVariants": {
+        "male": "./assets/species/dragonborn-male.png",
+        "female": "./assets/species/dragonborn-female.png",
+        "androgynous": "./assets/species/dragonborn-androgynous.png"
+      },
+      "speciesIds": [
+        "dragonborn",
+        "dragonborn-2014"
+      ]
+    },
+    {
+      "id": "duskling",
+      "name": "Duskling",
+      "imageVariants": {
+        "male": "./assets/species/duskling-male.png",
+        "female": "./assets/species/duskling-female.png",
+        "androgynous": "./assets/species/duskling-androgynous.png"
+      },
+      "speciesIds": [
+        "duskling"
+      ]
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "imageVariants": {
+        "male": "./assets/species/dwarf-male.png",
+        "female": "./assets/species/dwarf-female.png",
+        "androgynous": "./assets/species/dwarf-androgynous.png"
+      },
+      "speciesIds": [
+        "dwarf",
+        "hill-dwarf"
+      ]
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "imageVariants": {
+        "male": "./assets/species/elf-male.png",
+        "female": "./assets/species/elf-female.png",
+        "androgynous": "./assets/species/elf-androgynous.png"
+      },
+      "speciesIds": [
+        "elf",
+        "drow-elf",
+        "eladrin-elf"
+      ]
+    },
+    {
+      "id": "fairy",
+      "name": "Fairy",
+      "imageVariants": {
+        "male": "./assets/species/fairy-male.png",
+        "female": "./assets/species/fairy-female.png",
+        "androgynous": "./assets/species/fairy-androgynous.png"
+      },
+      "speciesIds": [
+        "fairy"
+      ]
+    },
+    {
+      "id": "firbolg",
+      "name": "Firbolg",
+      "imageVariants": {
+        "male": "./assets/species/firbolg-male.png",
+        "female": "./assets/species/firbolg-female.png",
+        "androgynous": "./assets/species/firbolg-androgynous.png"
+      },
+      "speciesIds": [
+        "firbolg"
+      ]
+    },
+    {
+      "id": "genasi",
+      "name": "Genasi",
+      "imageVariants": {
+        "male": "./assets/species/genasi-male.png",
+        "female": "./assets/species/genasi-female.png",
+        "androgynous": "./assets/species/genasi-androgynous.png"
+      },
+      "speciesIds": [
+        "air-genasi",
+        "earth-genasi",
+        "fire-genasi",
+        "water-genasi"
+      ]
+    },
+    {
+      "id": "geppettin",
+      "name": "Geppettin",
+      "imageVariants": {
+        "male": "./assets/species/geppettin-male.png",
+        "female": "./assets/species/geppettin-female.png",
+        "androgynous": "./assets/species/geppettin-androgynous.png"
+      },
+      "speciesIds": [
+        "geppettin"
+      ]
+    },
+    {
+      "id": "gith",
+      "name": "Gith",
+      "imageVariants": {
+        "male": "./assets/species/githyanki-male.png",
+        "female": "./assets/species/githyanki-female.png",
+        "androgynous": "./assets/species/githyanki-androgynous.png"
+      },
+      "speciesIds": [
+        "githyanki",
+        "githzerai"
+      ]
+    },
+    {
+      "id": "gnoll",
+      "name": "Gnoll",
+      "imageVariants": {
+        "male": "./assets/species/gnoll-male.png",
+        "female": "./assets/species/gnoll-female.png",
+        "androgynous": "./assets/species/gnoll-androgynous.png"
+      },
+      "speciesIds": [
+        "gnoll"
+      ]
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "imageVariants": {
+        "male": "./assets/species/gnome-male.png",
+        "female": "./assets/species/gnome-female.png",
+        "androgynous": "./assets/species/gnome-androgynous.png"
+      },
+      "speciesIds": [
+        "gnome",
+        "forest-gnome"
+      ]
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "imageVariants": {
+        "male": "./assets/species/goblin-male.png",
+        "female": "./assets/species/goblin-female.png",
+        "androgynous": "./assets/species/goblin-androgynous.png"
+      },
+      "speciesIds": [
+        "dhakaani-golindar-goblin",
+        "goblin"
+      ]
+    },
+    {
+      "id": "goliath",
+      "name": "Goliath",
+      "imageVariants": {
+        "male": "./assets/species/goliath-male.png",
+        "female": "./assets/species/goliath-female.png",
+        "androgynous": "./assets/species/goliath-androgynous.png"
+      },
+      "speciesIds": [
+        "goliath",
+        "goliath-elemental-evil"
+      ]
+    },
+    {
+      "id": "grung",
+      "name": "Grung",
+      "imageVariants": {
+        "male": "./assets/species/grung-male.png",
+        "female": "./assets/species/grung-female.png",
+        "androgynous": "./assets/species/grung-androgynous.png"
+      },
+      "speciesIds": [
+        "grung"
+      ]
+    },
+    {
+      "id": "half-elf",
+      "name": "Half-Elf",
+      "imageVariants": {
+        "male": "./assets/species/half-elf-male.png",
+        "female": "./assets/species/half-elf-female.png",
+        "androgynous": "./assets/species/half-elf-androgynous.png"
+      },
+      "speciesIds": [
+        "half-elf"
+      ]
+    },
+    {
+      "id": "half-orc",
+      "name": "Half-orc",
+      "imageVariants": {
+        "male": "./assets/species/half-orc-male.png",
+        "female": "./assets/species/half-orc-female.png",
+        "androgynous": "./assets/species/half-orc-androgynous.png"
+      },
+      "speciesIds": [
+        "jhorguntaal-half-orc",
+        "half-orc"
+      ]
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "imageVariants": {
+        "male": "./assets/species/halfling-male.png",
+        "female": "./assets/species/halfling-female.png",
+        "androgynous": "./assets/species/halfling-androgynous.png"
+      },
+      "speciesIds": [
+        "halfling",
+        "lightfoot-halfling"
+      ]
+    },
+    {
+      "id": "harengon",
+      "name": "Harengon",
+      "imageVariants": {
+        "male": "./assets/species/harengon-male.png",
+        "female": "./assets/species/harengon-female.png",
+        "androgynous": "./assets/species/harengon-androgynous.png"
+      },
+      "speciesIds": [
+        "harengon"
+      ]
+    },
+    {
+      "id": "hexblood",
+      "name": "Hexblood",
+      "imageVariants": {
+        "male": "./assets/species/hexblood-male.png",
+        "female": "./assets/species/hexblood-female.png",
+        "androgynous": "./assets/species/hexblood-androgynous.png"
+      },
+      "speciesIds": [
+        "hexblood"
+      ]
+    },
+    {
+      "id": "hobgoblin",
+      "name": "Hobgoblin",
+      "imageVariants": {
+        "male": "./assets/species/hobgoblin-male.png",
+        "female": "./assets/species/hobgoblin-female.png",
+        "androgynous": "./assets/species/hobgoblin-androgynous.png"
+      },
+      "speciesIds": [
+        "dhakaani-ghaaldar-hobgoblin",
+        "hobgoblin"
+      ]
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "imageVariants": {
+        "male": "./assets/species/human-male.png",
+        "female": "./assets/species/human-female.png",
+        "androgynous": "./assets/species/human-androgynous.png"
+      },
+      "speciesIds": [
+        "human",
+        "human-2014"
+      ]
+    },
+    {
+      "id": "kalashtar",
+      "name": "Kalashtar",
+      "imageVariants": {
+        "male": "./assets/species/kalashtar-male.png",
+        "female": "./assets/species/kalashtar-female.png",
+        "androgynous": "./assets/species/kalashtar-androgynous.png"
+      },
+      "speciesIds": [
+        "kalashtar",
+        "kalashtar-eberron-rising"
+      ]
+    },
+    {
+      "id": "kenku",
+      "name": "Kenku",
+      "imageVariants": {
+        "male": "./assets/species/kenku-male.png",
+        "female": "./assets/species/kenku-female.png",
+        "androgynous": "./assets/species/kenku-androgynous.png"
+      },
+      "speciesIds": [
+        "kenku"
+      ]
+    },
+    {
+      "id": "khoravar",
+      "name": "Khoravar",
+      "imageVariants": {
+        "male": "./assets/species/khoravar-male.png",
+        "female": "./assets/species/khoravar-female.png",
+        "androgynous": "./assets/species/khoravar-androgynous.png"
+      },
+      "speciesIds": [
+        "khoravar"
+      ]
+    },
+    {
+      "id": "kobold",
+      "name": "Kobold",
+      "imageVariants": {
+        "male": "./assets/species/kobold-male.png",
+        "female": "./assets/species/kobold-female.png",
+        "androgynous": "./assets/species/kobold-androgynous.png"
+      },
+      "speciesIds": [
+        "kobold"
+      ]
+    },
+    {
+      "id": "lizardfolk",
+      "name": "Lizardfolk",
+      "imageVariants": {
+        "male": "./assets/species/lizardfolk-male.png",
+        "female": "./assets/species/lizardfolk-female.png",
+        "androgynous": "./assets/species/lizardfolk-androgynous.png"
+      },
+      "speciesIds": [
+        "lizardfolk"
+      ]
+    },
+    {
+      "id": "mandrake",
+      "name": "Mandrake",
+      "imageVariants": {
+        "male": "./assets/species/mandrake-male.png",
+        "female": "./assets/species/mandrake-female.png",
+        "androgynous": "./assets/species/mandrake-androgynous.png"
+      },
+      "speciesIds": [
+        "mandrake"
+      ]
+    },
+    {
+      "id": "merfolk",
+      "name": "Merfolk",
+      "imageVariants": {
+        "male": "./assets/species/merfolk-male.png",
+        "female": "./assets/species/merfolk-female.png",
+        "androgynous": "./assets/species/merfolk-androgynous.png"
+      },
+      "speciesIds": [
+        "kalamer-landwalker-merfolk"
+      ]
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "imageVariants": {
+        "male": "./assets/species/minotaur-male.png",
+        "female": "./assets/species/minotaur-female.png",
+        "androgynous": "./assets/species/minotaur-androgynous.png"
+      },
+      "speciesIds": [
+        "minotaur"
+      ]
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "imageVariants": {
+        "male": "./assets/species/orc-male.png",
+        "female": "./assets/species/orc-female.png",
+        "androgynous": "./assets/species/orc-androgynous.png"
+      },
+      "speciesIds": [
+        "orc",
+        "orc-mordenkainen"
+      ]
+    },
+    {
+      "id": "reborn",
+      "name": "Reborn",
+      "imageVariants": {
+        "male": "./assets/species/reborn-male.png",
+        "female": "./assets/species/reborn-female.png",
+        "androgynous": "./assets/species/reborn-androgynous.png"
+      },
+      "speciesIds": [
+        "reborn"
+      ]
+    },
+    {
+      "id": "ruinbound",
+      "name": "Ruinbound",
+      "imageVariants": {
+        "male": "./assets/species/ruinbound-male.png",
+        "female": "./assets/species/ruinbound-female.png",
+        "androgynous": "./assets/species/ruinbound-androgynous.png"
+      },
+      "speciesIds": [
+        "ruinbound"
+      ]
+    },
+    {
+      "id": "sahuagin",
+      "name": "Sahuagin",
+      "imageVariants": {
+        "male": "./assets/species/sahuagin-male.png",
+        "female": "./assets/species/sahuagin-female.png",
+        "androgynous": "./assets/species/sahuagin-androgynous.png"
+      },
+      "speciesIds": [
+        "sahuagin"
+      ]
+    },
+    {
+      "id": "satyr",
+      "name": "Satyr",
+      "imageVariants": {
+        "male": "./assets/species/satyr-male.png",
+        "female": "./assets/species/satyr-female.png",
+        "androgynous": "./assets/species/satyr-androgynous.png"
+      },
+      "speciesIds": [
+        "satyr"
+      ]
+    },
+    {
+      "id": "shifter",
+      "name": "Shifter",
+      "imageVariants": {
+        "male": "./assets/species/shifter-male.png",
+        "female": "./assets/species/shifter-female.png",
+        "androgynous": "./assets/species/shifter-androgynous.png"
+      },
+      "speciesIds": [
+        "shifter",
+        "shifter-2014",
+        "beasthide-shifter",
+        "beasthide-shifter-2024",
+        "longtooth-shifter",
+        "longtooth-shifter-2014",
+        "swiftstride-shifter",
+        "swiftstride-shifter-2014",
+        "wildhunt-shifter",
+        "wildhunt-shifter-2014"
+      ]
+    },
+    {
+      "id": "tabaxi",
+      "name": "Tabaxi",
+      "imageVariants": {
+        "male": "./assets/species/tabaxi-male.png",
+        "female": "./assets/species/tabaxi-female.png",
+        "androgynous": "./assets/species/tabaxi-androgynous.png"
+      },
+      "speciesIds": [
+        "tabaxi"
+      ]
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "imageVariants": {
+        "male": "./assets/species/tiefling-male.png",
+        "female": "./assets/species/tiefling-female.png",
+        "androgynous": "./assets/species/tiefling-androgynous.png"
+      },
+      "speciesIds": [
+        "tiefling",
+        "tiefling-2014"
+      ]
+    },
+    {
+      "id": "tortle",
+      "name": "Tortle",
+      "imageVariants": {
+        "male": "./assets/species/tortle-male.png",
+        "female": "./assets/species/tortle-female.png",
+        "androgynous": "./assets/species/tortle-androgynous.png"
+      },
+      "speciesIds": [
+        "tortle"
+      ]
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "imageVariants": {
+        "male": "./assets/species/triton-male.png",
+        "female": "./assets/species/triton-female.png",
+        "androgynous": "./assets/species/triton-androgynous.png"
+      },
+      "speciesIds": [
+        "triton"
+      ]
+    },
+    {
+      "id": "verdan",
+      "name": "Verdan",
+      "imageVariants": {
+        "male": "./assets/species/verdan-male.png",
+        "female": "./assets/species/verdan-female.png",
+        "androgynous": "./assets/species/verdan-androgynous.png"
+      },
+      "speciesIds": [
+        "verdan"
+      ]
+    },
+    {
+      "id": "warforged",
+      "name": "Warforged",
+      "imageVariants": {
+        "male": "./assets/species/warforged-male.png",
+        "female": "./assets/species/warforged-female.png",
+        "androgynous": "./assets/species/warforged-androgynous.png"
+      },
+      "speciesIds": [
+        "warforged",
+        "warforged-eberron-rising"
+      ]
+    },
+    {
+      "id": "yuan-ti",
+      "name": "Yuan-ti",
+      "imageVariants": {
+        "male": "./assets/species/yuan-ti-male.png",
+        "female": "./assets/species/yuan-ti-female.png",
+        "androgynous": "./assets/species/yuan-ti-androgynous.png"
+      },
+      "speciesIds": [
+        "yuan-ti"
+      ]
+    }
+  ]
+}
