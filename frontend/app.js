@@ -7,6 +7,10 @@
   const OUT_OF_COMBAT_ROLES_STORAGE_KEY = "dnd-character-builder.outOfCombatRoles";
   const SOURCE_MODE_STORAGE_KEY = "dnd-character-builder.sourceMode";
   const CLASS_SOURCE_MODE_STORAGE_KEY = "dnd-character-builder.classSourceMode";
+  const CUSTOM_SPECIES_SOURCES_STORAGE_KEY = "dnd-character-builder.customSpeciesSources";
+  const CUSTOM_CLASS_SOURCES_STORAGE_KEY = "dnd-character-builder.customClassSources";
+  const DEFAULT_SOURCE_MODE_ID = "2024";
+  const DEFAULT_CLASS_SOURCE_MODE_ID = "latest";
   const DRAGONMARKED_STORAGE_KEY = "dnd-character-builder.enableDragonmarked";
   const SOURCE_MODES = [
     {
@@ -27,6 +31,11 @@
       description: "Enable sub-species marked TRUE for 5E-compatible Sub-species.",
       field: "5E-compatible Sub-species",
     },
+    {
+      id: "custom",
+      name: "Customized Enabled Source List",
+      description: "Choose exactly which species sources are enabled.",
+    },
   ];
   const CLASS_SOURCE_MODES = [
     {
@@ -43,6 +52,11 @@
       id: "5e",
       name: "5E-compatible",
       description: "Enable 5E classes and legacy subclasses.",
+    },
+    {
+      id: "custom",
+      name: "Customized Enabled Source List",
+      description: "Choose exactly which class and subclass sources are enabled.",
     },
   ];
   const GENDER_OPTIONS = [
@@ -80,8 +94,10 @@
     settings: document.querySelector("#settings-screen"),
     subSpeciesSettings: document.querySelector("#sub-species-settings-screen"),
     enabledSources: document.querySelector("#enabled-sources-screen"),
+    customSpeciesSources: document.querySelector("#custom-species-sources-screen"),
     classSettings: document.querySelector("#class-settings-screen"),
     classEnabledSources: document.querySelector("#class-enabled-sources-screen"),
+    customClassSources: document.querySelector("#custom-class-sources-screen"),
     app: document.querySelector("#app-shell"),
   };
 
@@ -94,10 +110,14 @@
     settingsBackButton: document.querySelector("#settings-back-button"),
     subSpeciesSettingsBackButton: document.querySelector("#sub-species-settings-back-button"),
     enabledSourcesBackButton: document.querySelector("#enabled-sources-back-button"),
+    customSpeciesSourcesBackButton: document.querySelector("#custom-species-sources-back-button"),
     classEnabledSourcesButton: document.querySelector("#class-enabled-sources-button"),
     classSettingsBackButton: document.querySelector("#class-settings-back-button"),
     classEnabledSourcesBackButton: document.querySelector("#class-enabled-sources-back-button"),
+    customClassSourcesBackButton: document.querySelector("#custom-class-sources-back-button"),
     classSourceModeList: document.querySelector("#class-source-mode-list"),
+    customSpeciesSourceList: document.querySelector("#custom-species-source-list"),
+    customClassSourceList: document.querySelector("#custom-class-source-list"),
     classSettingsSummary: document.querySelector("#class-settings-summary"),
     classEnabledSourcesSummary: document.querySelector("#class-enabled-sources-summary"),
     sourceModeList: document.querySelector("#source-mode-list"),
@@ -135,9 +155,15 @@
   let selectedOutOfCombatRoles = JSON.parse(
     localStorage.getItem(OUT_OF_COMBAT_ROLES_STORAGE_KEY) || "[]",
   );
-  let selectedSourceModeId = localStorage.getItem(SOURCE_MODE_STORAGE_KEY) || "2024";
+  let selectedSourceModeId = localStorage.getItem(SOURCE_MODE_STORAGE_KEY) || DEFAULT_SOURCE_MODE_ID;
   let selectedClassSourceModeId =
-    localStorage.getItem(CLASS_SOURCE_MODE_STORAGE_KEY) || "latest";
+    localStorage.getItem(CLASS_SOURCE_MODE_STORAGE_KEY) || DEFAULT_CLASS_SOURCE_MODE_ID;
+  let customSpeciesSources = JSON.parse(
+    localStorage.getItem(CUSTOM_SPECIES_SOURCES_STORAGE_KEY) || "null",
+  );
+  let customClassSources = JSON.parse(
+    localStorage.getItem(CUSTOM_CLASS_SOURCES_STORAGE_KEY) || "null",
+  );
   let enableDragonmarked = localStorage.getItem(DRAGONMARKED_STORAGE_KEY) === "true";
   let classCombos = [];
 
@@ -223,6 +249,9 @@
       if (!name || (isDragonmarked && !enableDragonmarked)) {
         return false;
       }
+      if (selectedSourceModeId === "custom") {
+        return customSpeciesSources?.includes(option.Source);
+      }
       if (isDragonmarked) {
         return true;
       }
@@ -231,6 +260,12 @@
   }
 
   function getVisibleClassCombos() {
+    if (selectedClassSourceModeId === "custom") {
+      return classCombos.filter((combo) =>
+        combo.sources.some((source) => customClassSources?.includes(source)),
+      );
+    }
+
     if (selectedClassSourceModeId === "all") {
       return classCombos;
     }
@@ -648,6 +683,11 @@
       button.addEventListener("click", () => {
         selectedSourceModeId = mode.id;
         localStorage.setItem(SOURCE_MODE_STORAGE_KEY, selectedSourceModeId);
+        if (mode.id === "custom") {
+          renderCustomSpeciesSources();
+          showScreen("customSpeciesSources");
+          return;
+        }
         renderSourceModes();
         updateSettingsSummary();
         refreshSpeciesAfterSettingsChange();
@@ -667,12 +707,86 @@
       button.addEventListener("click", () => {
         selectedClassSourceModeId = mode.id;
         localStorage.setItem(CLASS_SOURCE_MODE_STORAGE_KEY, selectedClassSourceModeId);
+        if (mode.id === "custom") {
+          renderCustomClassSources();
+          showScreen("customClassSources");
+          return;
+        }
         renderClassSourceModes();
         updateClassSettingsSummary();
         refreshClassAfterSettingsChange();
       });
       elements.classSourceModeList.appendChild(button);
     });
+  }
+
+  function getSpeciesSources() {
+    return [...new Set(catalog.map((option) => option.Source).filter(Boolean))].sort();
+  }
+
+  function getClassSources() {
+    return [...new Set(classCombos.flatMap((combo) => combo.sources || []).filter(Boolean))].sort();
+  }
+
+  function renderCustomSourceList(container, sources, selectedSources, storageKey, onChange) {
+    if (!selectedSources) {
+      selectedSources = [...sources];
+      onChange(selectedSources, false);
+    }
+    container.innerHTML = "";
+    sources.forEach((source) => {
+      const label = document.createElement("label");
+      label.className = "toggle-option source-toggle";
+      const text = document.createElement("span");
+      text.textContent = source;
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.checked = selectedSources.includes(source);
+      input.addEventListener("change", () => {
+        const nextSources = input.checked
+          ? [...selectedSources, source]
+          : selectedSources.filter((selectedSource) => selectedSource !== source);
+        onChange(nextSources, true);
+      });
+      label.append(text, input);
+      container.appendChild(label);
+    });
+  }
+
+  function renderCustomSpeciesSources() {
+    renderCustomSourceList(
+      elements.customSpeciesSourceList,
+      getSpeciesSources(),
+      customSpeciesSources,
+      CUSTOM_SPECIES_SOURCES_STORAGE_KEY,
+      (nextSources, refresh) => {
+        customSpeciesSources = nextSources;
+        localStorage.setItem(CUSTOM_SPECIES_SOURCES_STORAGE_KEY, JSON.stringify(nextSources));
+        if (refresh) {
+          updateSettingsSummary();
+          refreshSpeciesAfterSettingsChange();
+          renderCustomSpeciesSources();
+        }
+      },
+    );
+  }
+
+  function renderCustomClassSources() {
+    renderCustomSourceList(
+      elements.customClassSourceList,
+      getClassSources(),
+      customClassSources,
+      CUSTOM_CLASS_SOURCES_STORAGE_KEY,
+      (nextSources, refresh) => {
+        customClassSources = nextSources;
+        localStorage.setItem(CUSTOM_CLASS_SOURCES_STORAGE_KEY, JSON.stringify(nextSources));
+        if (refresh) {
+          updateClassSettingsSummary();
+          refreshClassAfterSettingsChange();
+          renderCustomClassSources();
+        }
+      },
+    );
   }
 
   function updateSettingsSummary() {
@@ -753,6 +867,12 @@
       );
       return { ...option, description: descriptionEntry?.description };
     });
+    if (!customSpeciesSources) {
+      customSpeciesSources = getSpeciesSources();
+    }
+    if (!customClassSources) {
+      customClassSources = getClassSources();
+    }
   }
 
   async function init() {
@@ -772,8 +892,16 @@
       showScreen("classSettings");
     });
     elements.enabledSourcesButton.addEventListener("click", () => showScreen("enabledSources"));
+    elements.customSpeciesSourcesBackButton.addEventListener("click", () => {
+      renderSourceModes();
+      showScreen("enabledSources");
+    });
     elements.classEnabledSourcesButton.addEventListener("click", () => {
       updateClassSettingsSummary();
+      showScreen("classEnabledSources");
+    });
+    elements.customClassSourcesBackButton.addEventListener("click", () => {
+      renderClassSourceModes();
       showScreen("classEnabledSources");
     });
     elements.settingsBackButton.addEventListener("click", () => showScreen("landing"));
