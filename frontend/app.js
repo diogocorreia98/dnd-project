@@ -143,6 +143,7 @@
     comboResults: document.querySelector("#combo-results"),
     comboResultsStatus: document.querySelector("#combo-results-status"),
     comboList: document.querySelector("#combo-list"),
+    comboPreview: document.querySelector("#combo-preview"),
   };
 
   let catalog = [];
@@ -389,6 +390,52 @@
     return group.imageVariants?.[gender] || `./assets/species/${group.id}-${gender}.png`;
   }
 
+  function getComboImagePath(comboName, gender) {
+    return gender ? `./assets/classes/${slugify(comboName)}-${gender}.png` : null;
+  }
+
+  function renderComboPreview() {
+    elements.comboPreview.innerHTML = "";
+    if (!selectedClassCombo) {
+      elements.comboPreview.innerHTML =
+        '<div class="combo-preview-empty">Select a class + subclass to view its artwork.</div>';
+      return;
+    }
+
+    const preview = document.createElement("div");
+    preview.className = "combo-preview-content";
+    const media = document.createElement("div");
+    media.className = "combo-preview-media";
+    const fallback = document.createElement("div");
+    fallback.className = "combo-preview-fallback";
+    fallback.textContent = selectedClassCombo.comboName;
+    const image = document.createElement("img");
+    const imagePath = getComboImagePath(selectedClassCombo.comboName, selectedGender);
+    image.alt = `${selectedClassCombo.comboName} ${selectedGender || "character"} artwork`;
+    image.loading = "eager";
+    image.draggable = false;
+    image.hidden = true;
+    image.addEventListener("load", () => {
+      fallback.hidden = true;
+      image.hidden = false;
+    });
+    image.addEventListener("error", () => {
+      image.remove();
+    });
+    media.append(fallback);
+    if (imagePath) {
+      image.src = imagePath;
+      media.appendChild(image);
+    }
+
+    const title = document.createElement("h4");
+    title.textContent = selectedClassCombo.comboName;
+    const detail = document.createElement("p");
+    detail.textContent = "Species-neutral class + subclass artwork";
+    preview.append(media, title, detail);
+    elements.comboPreview.appendChild(preview);
+  }
+
   function renderSpeciesGallery() {
     const groups = getSpeciesGroups();
     elements.speciesGallery.innerHTML = "";
@@ -572,6 +619,8 @@
       : "all options shown because no priorities were selected";
     elements.comboResultsStatus.textContent = `${groupedCombos.length} combo${groupedCombos.length === 1 ? "" : "s"}; ${preferenceText}.`;
     const maximumPriorityScore = getMaximumPriorityScore();
+
+    renderComboPreview();
 
     groupedCombos.forEach(([comboName, variants]) => {
       const group = document.createElement("article");
