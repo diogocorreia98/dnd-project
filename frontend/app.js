@@ -559,7 +559,7 @@
           ),
         );
           const classSource = combo.sources[0] || "Source not listed";
-          const subclassSource = combo.sources.slice(1).join(", ") || "Source not listed";
+        const subclassSource = combo.sources.slice(1).join(", ") || classSource;
           const subclassName = combo.subclassName.replace(/\s*\([A-Za-z0-9.-]{2,8}\)$/g, "");
           button.innerHTML = `<span class="combo-variant-label">${combo.className} - ${classSource}<br />${subclassName} - ${subclassSource}</span>`;
         button.addEventListener("click", () => {
