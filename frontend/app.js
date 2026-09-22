@@ -247,8 +247,36 @@
         combo.subclassSourceGroup !== "Critical Role" &&
         !combo.sources.includes("Critical Role"),
     );
+    const fiveECombos = classCombos.filter(
+      (combo) =>
+        combo.classRuleset === "5E" &&
+        combo.sources.length > 1 &&
+        combo.subclassSourceGroup !== "Critical Role" &&
+        !combo.sources.includes("Critical Role"),
+    );
     const seenSubclasses = new Set();
-    return latestCombos.filter((combo) => {
+    return latestCombos
+      .map((combo) => {
+        if (combo.classRuleset !== "5.5E" || combo.sources.length > 1) {
+          return combo;
+        }
+
+        const subclassName = combo.subclassName.replace(/\s*\(Legacy\)$/i, "").trim();
+        const matchingFiveECombo = fiveECombos.find(
+          (fiveECombo) =>
+            fiveECombo.className === combo.className &&
+            fiveECombo.subclassName.replace(/\s*\(Legacy\)$/i, "").trim() === subclassName,
+        );
+        if (!matchingFiveECombo) {
+          return combo;
+        }
+
+        return {
+          ...combo,
+          sources: [combo.sources[0], ...matchingFiveECombo.sources.slice(1)],
+        };
+      })
+      .filter((combo) => {
       const subclassName = combo.subclassName.replace(/\s*\(Legacy\)$/i, "").trim();
       const subclassKey = `${combo.className}:${subclassName}`;
       if (seenSubclasses.has(subclassKey)) {
@@ -256,7 +284,7 @@
       }
       seenSubclasses.add(subclassKey);
       return true;
-    });
+      });
   }
 
   function getSubSpecies(speciesName, visibleCatalog = getVisibleCatalog()) {
@@ -533,7 +561,7 @@
           const classSource = combo.sources[0] || "Source not listed";
           const subclassSource = combo.sources.slice(1).join(", ") || "Source not listed";
           const subclassName = combo.subclassName.replace(/\s*\([A-Za-z0-9.-]{2,8}\)$/g, "");
-          button.innerHTML = `<strong>${combo.className} - ${classSource}<br />${subclassName} - ${subclassSource}</strong>`;
+          button.innerHTML = `<span class="combo-variant-label">${combo.className} - ${classSource}<br />${subclassName} - ${subclassSource}</span>`;
         button.addEventListener("click", () => {
           selectedClassCombo = combo;
           localStorage.setItem(CLASS_COMBO_STORAGE_KEY, JSON.stringify(combo));

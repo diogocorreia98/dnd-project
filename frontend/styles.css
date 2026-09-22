@@ -576,27 +576,25 @@ input {
 }
 
 .combo-heading span,
-.combo-variant small {
+.combo-variant small,
+.combo-variant-label {
   color: var(--muted);
   font-size: 0.8rem;
 }
 
 .combo-variant {
   display: grid;
+  align-items: center;
   gap: 6px;
   min-height: 70px;
   padding: 12px;
 }
 
-.combo-variant strong {
-  color: var(--muted);
+.combo-variant-label {
+  font-family: inherit;
   font-size: 0.8rem;
   font-weight: 400;
-}
-
-.combo-variant strong span {
-  color: var(--muted);
-  font-weight: 400;
+  line-height: inherit;
 }
 
 @media (max-width: 620px) {
