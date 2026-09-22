@@ -27,6 +27,10 @@
           <strong>Sub-species Settings</strong>
           <span>Choose which sub-species sources are available.</span>
         </button>
+        <button id="class-settings-button" class="settings-option" type="button">
+          <strong>Class + Subclass Settings</strong>
+          <span id="class-settings-summary">Latest class and subclass sources</span>
+        </button>
         <button id="settings-back-button" class="text-button" type="button">Back</button>
       </div>
     </div>
@@ -56,6 +60,27 @@
         <h2>Enabled Sources</h2>
         <div id="source-mode-list" class="source-mode-list"></div>
         <button id="enabled-sources-back-button" class="text-button" type="button">Back</button>
+      </div>
+    </div>
+
+    <div id="class-settings-screen" class="screen" hidden>
+      <div class="settings-card">
+        <p class="eyebrow">Settings</p>
+        <h2>Class + Subclass Settings</h2>
+        <button id="class-enabled-sources-button" class="settings-option" type="button">
+          <strong>Enabled Sources</strong>
+          <span id="class-enabled-sources-summary">Latest class and subclass sources</span>
+        </button>
+        <button id="class-settings-back-button" class="text-button" type="button">Back</button>
+      </div>
+    </div>
+
+    <div id="class-enabled-sources-screen" class="screen" hidden>
+      <div class="settings-card">
+        <p class="eyebrow">Class + Subclass Settings</p>
+        <h2>Enabled Sources</h2>
+        <div id="class-source-mode-list" class="source-mode-list"></div>
+        <button id="class-enabled-sources-back-button" class="text-button" type="button">Back</button>
       </div>
     </div>
 
@@ -105,6 +130,47 @@
             <div class="sub-species-selector" id="sub-species-selector"></div>
           </section>
         </section>
+
+        <section id="class" class="page-section class-section" aria-label="Class and subclass selector" hidden>
+          <div class="page-heading compact">
+            <p class="eyebrow">Next step</p>
+            <div>
+              <h2>Class + subclass</h2>
+              <p>Select up to three priorities in order. Higher-ranked priorities require stronger role ratings.</p>
+            </div>
+          </div>
+
+          <section class="role-question" aria-labelledby="combat-role-heading">
+            <div class="section-heading">
+              <div>
+                <h3 id="combat-role-heading">What matters in combat?</h3>
+                <p id="combat-role-status">No preference; all options remain eligible.</p>
+              </div>
+              <span class="priority-count" id="combat-role-count">0 / 3</span>
+            </div>
+            <div class="role-selector" id="combat-role-selector"></div>
+          </section>
+
+          <section class="role-question" aria-labelledby="out-of-combat-role-heading">
+            <div class="section-heading">
+              <div>
+                <h3 id="out-of-combat-role-heading">What matters out of combat?</h3>
+                <p id="out-of-combat-role-status">No preference; all options remain eligible.</p>
+              </div>
+              <span class="priority-count" id="out-of-combat-role-count">0 / 3</span>
+            </div>
+            <div class="role-selector" id="out-of-combat-role-selector"></div>
+          </section>
+
+          <section class="combo-results" id="combo-results" aria-live="polite" hidden>
+            <div class="section-heading">
+              <div>
+                <h3>Matching combos</h3>
+                <p id="combo-results-status">Choose priorities to see matching combos.</p>
+              </div>
+            </div>
+            <div class="combo-list" id="combo-list"></div>
+          </section>
       </main>
     </div>
 

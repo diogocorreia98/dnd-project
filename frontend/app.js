@@ -2,7 +2,11 @@
   const GENDER_STORAGE_KEY = "dnd-character-builder.selectedGender";
   const SPECIES_STORAGE_KEY = "dnd-character-builder.selectedSpecies";
   const SUB_SPECIES_STORAGE_KEY = "dnd-character-builder.selectedSubSpecies";
+  const CLASS_COMBO_STORAGE_KEY = "dnd-character-builder.selectedClassCombo";
+  const COMBAT_ROLES_STORAGE_KEY = "dnd-character-builder.combatRoles";
+  const OUT_OF_COMBAT_ROLES_STORAGE_KEY = "dnd-character-builder.outOfCombatRoles";
   const SOURCE_MODE_STORAGE_KEY = "dnd-character-builder.sourceMode";
+  const CLASS_SOURCE_MODE_STORAGE_KEY = "dnd-character-builder.classSourceMode";
   const DRAGONMARKED_STORAGE_KEY = "dnd-character-builder.enableDragonmarked";
   const SOURCE_MODES = [
     {
@@ -24,17 +28,60 @@
       field: "5E-compatible Sub-species",
     },
   ];
+  const CLASS_SOURCE_MODES = [
+    {
+      id: "latest",
+      name: "Latest class and subclass sources",
+      description: "Exclude 5E classes, Critical Role material, and legacy subclasses.",
+    },
+    {
+      id: "all",
+      name: "Everything",
+      description: "Enable every class and subclass in the catalog.",
+    },
+    {
+      id: "5e",
+      name: "5E-compatible",
+      description: "Enable 5E classes and legacy subclasses.",
+    },
+  ];
   const GENDER_OPTIONS = [
     { id: "male", name: "Male" },
     { id: "female", name: "Female" },
     { id: "androgynous", name: "Androgynous" },
   ];
+  const COMBAT_ROLES = ["Strike", "Blast", "Tank", "Control", "Healer", "Support"];
+  const OUT_OF_COMBAT_ROLES = [
+    "Face",
+    "Scout",
+    "Investigator",
+    "Scholar",
+    "Explorer",
+    "Utility",
+  ];
+  const PRIORITY_THRESHOLDS = [4, 3, 2];
+  const OFFICIAL_EXTENDED_SOURCES = new Set([
+    "Dungeon Master’s Guide (2014)",
+    "Dungeon Master's Guide (2014)",
+    "Elemental Evil Player's Companion",
+    "Mordenkainen Presents: Monsters of the Multiverse",
+    "Tasha’s Cauldron of Everything",
+    "Tasha's Cauldron of Everything",
+    "Van Richten’s Guide to Ravenloft",
+    "Van Richten's Guide to Ravenloft",
+    "Eberron: Rising from the Last War",
+    "Eberron: Forge of the Artificer",
+    "Sword Coast Adventurer’s Guide",
+    "Sword Coast Adventurer's Guide",
+  ]);
 
   const screens = {
     landing: document.querySelector("#landing-screen"),
     settings: document.querySelector("#settings-screen"),
     subSpeciesSettings: document.querySelector("#sub-species-settings-screen"),
     enabledSources: document.querySelector("#enabled-sources-screen"),
+    classSettings: document.querySelector("#class-settings-screen"),
+    classEnabledSources: document.querySelector("#class-enabled-sources-screen"),
     app: document.querySelector("#app-shell"),
   };
 
@@ -42,10 +89,17 @@
     startButton: document.querySelector("#start-button"),
     settingsButton: document.querySelector("#settings-button"),
     subSpeciesSettingsButton: document.querySelector("#sub-species-settings-button"),
+    classSettingsButton: document.querySelector("#class-settings-button"),
     enabledSourcesButton: document.querySelector("#enabled-sources-button"),
     settingsBackButton: document.querySelector("#settings-back-button"),
     subSpeciesSettingsBackButton: document.querySelector("#sub-species-settings-back-button"),
     enabledSourcesBackButton: document.querySelector("#enabled-sources-back-button"),
+    classEnabledSourcesButton: document.querySelector("#class-enabled-sources-button"),
+    classSettingsBackButton: document.querySelector("#class-settings-back-button"),
+    classEnabledSourcesBackButton: document.querySelector("#class-enabled-sources-back-button"),
+    classSourceModeList: document.querySelector("#class-source-mode-list"),
+    classSettingsSummary: document.querySelector("#class-settings-summary"),
+    classEnabledSourcesSummary: document.querySelector("#class-enabled-sources-summary"),
     sourceModeList: document.querySelector("#source-mode-list"),
     enabledSourcesSummary: document.querySelector("#enabled-sources-summary"),
     dragonmarkedToggle: document.querySelector("#dragonmarked-toggle"),
@@ -59,6 +113,16 @@
     subSpeciesPanel: document.querySelector("#sub-species-panel"),
     subSpeciesSelector: document.querySelector("#sub-species-selector"),
     subSpeciesStatus: document.querySelector("#sub-species-status"),
+    classSection: document.querySelector("#class"),
+    combatRoleSelector: document.querySelector("#combat-role-selector"),
+    combatRoleCount: document.querySelector("#combat-role-count"),
+    combatRoleStatus: document.querySelector("#combat-role-status"),
+    outOfCombatRoleSelector: document.querySelector("#out-of-combat-role-selector"),
+    outOfCombatRoleCount: document.querySelector("#out-of-combat-role-count"),
+    outOfCombatRoleStatus: document.querySelector("#out-of-combat-role-status"),
+    comboResults: document.querySelector("#combo-results"),
+    comboResultsStatus: document.querySelector("#combo-results-status"),
+    comboList: document.querySelector("#combo-list"),
   };
 
   let catalog = [];
@@ -66,8 +130,16 @@
   let selectedGender = localStorage.getItem(GENDER_STORAGE_KEY);
   let selectedSpeciesId = localStorage.getItem(SPECIES_STORAGE_KEY);
   let selectedSubSpeciesId = localStorage.getItem(SUB_SPECIES_STORAGE_KEY);
+  let selectedClassCombo = JSON.parse(localStorage.getItem(CLASS_COMBO_STORAGE_KEY) || "null");
+  let selectedCombatRoles = JSON.parse(localStorage.getItem(COMBAT_ROLES_STORAGE_KEY) || "[]");
+  let selectedOutOfCombatRoles = JSON.parse(
+    localStorage.getItem(OUT_OF_COMBAT_ROLES_STORAGE_KEY) || "[]",
+  );
   let selectedSourceModeId = localStorage.getItem(SOURCE_MODE_STORAGE_KEY) || "2024";
+  let selectedClassSourceModeId =
+    localStorage.getItem(CLASS_SOURCE_MODE_STORAGE_KEY) || "latest";
   let enableDragonmarked = localStorage.getItem(DRAGONMARKED_STORAGE_KEY) === "true";
+  let classCombos = [];
 
   function slugify(value) {
     return value
@@ -104,7 +176,7 @@
         description: getDescription(group.name, visibleCatalog),
       }));
 
-    return groups.length
+    const speciesGroups = groups.length
       ? groups
       : visibleCatalog.map((option) => ({
           id: slugify(option.species),
@@ -113,6 +185,34 @@
           description: getDescription(option.species, visibleCatalog),
           imageVariants: {},
         }));
+
+    return speciesGroups
+      .map((group, index) => ({
+        group,
+        index,
+        sortRank: getSpeciesSortRank(group, visibleCatalog),
+      }))
+      .sort((first, second) => first.sortRank - second.sortRank || first.index - second.index)
+      .map(({ group }) => group);
+  }
+
+  function getSpeciesSortRank(group, visibleCatalog) {
+    const name = slugify(group.name);
+    const priorityNames = { human: 0, elf: 1, dwarf: 2 };
+    if (name in priorityNames) {
+      return priorityNames[name];
+    }
+
+    const sources = visibleCatalog
+      .filter((option) => slugify(option.species) === name)
+      .map((option) => option.Source);
+    if (sources.some((source) => /player[’']s handbook/i.test(source))) {
+      return 3;
+    }
+    if (sources.some((source) => OFFICIAL_EXTENDED_SOURCES.has(source))) {
+      return 4;
+    }
+    return 5;
   }
 
   function getVisibleCatalog() {
@@ -127,6 +227,35 @@
         return true;
       }
       return !mode.field || option[mode.field] === "TRUE";
+    });
+  }
+
+  function getVisibleClassCombos() {
+    if (selectedClassSourceModeId === "all") {
+      return classCombos;
+    }
+
+    if (selectedClassSourceModeId === "5e") {
+      return classCombos.filter(
+        (combo) => combo.classRuleset === "5E" || /^5e /i.test(combo.subclassSourceGroup),
+      );
+    }
+
+    const latestCombos = classCombos.filter(
+      (combo) =>
+        combo.classRuleset !== "5E" &&
+        combo.subclassSourceGroup !== "Critical Role" &&
+        !combo.sources.includes("Critical Role"),
+    );
+    const seenSubclasses = new Set();
+    return latestCombos.filter((combo) => {
+      const subclassName = combo.subclassName.replace(/\s*\(Legacy\)$/i, "").trim();
+      const subclassKey = `${combo.className}:${subclassName}`;
+      if (seenSubclasses.has(subclassKey)) {
+        return false;
+      }
+      seenSubclasses.add(subclassKey);
+      return true;
     });
   }
 
@@ -234,8 +363,10 @@
       card.addEventListener("click", () => {
         selectedSpeciesId = group.id;
         selectedSubSpeciesId = null;
+        selectedClassCombo = null;
         localStorage.setItem(SPECIES_STORAGE_KEY, selectedSpeciesId);
         localStorage.removeItem(SUB_SPECIES_STORAGE_KEY);
+        localStorage.removeItem(CLASS_COMBO_STORAGE_KEY);
         updateSpeciesSelection();
         renderSubSpeciesSelector(group);
       });
@@ -264,6 +395,7 @@
     elements.subSpeciesPanel.hidden = !group;
 
     if (!group) {
+      renderClassSection();
       return;
     }
 
@@ -278,6 +410,7 @@
       }
       elements.subSpeciesPanel.hidden = true;
       elements.subSpeciesStatus.textContent = "No sub-species listed.";
+      renderClassSection();
       return;
     }
 
@@ -292,6 +425,8 @@
       button.addEventListener("click", () => {
         selectedSubSpeciesId = option.id;
         localStorage.setItem(SUB_SPECIES_STORAGE_KEY, selectedSubSpeciesId);
+        selectedClassCombo = null;
+        localStorage.removeItem(CLASS_COMBO_STORAGE_KEY);
         renderSubSpeciesSelector(group);
       });
       elements.subSpeciesSelector.appendChild(button);
@@ -301,6 +436,124 @@
     elements.subSpeciesStatus.textContent = selectedOption
       ? `${selectedOption.name} selected.`
       : "Choose a sub-species.";
+    renderClassSection();
+  }
+
+  function renderRoleQuestion(container, roles, selectedRoles, storageKey, countElement, statusElement) {
+    container.innerHTML = "";
+    roles.forEach((role) => {
+      const button = document.createElement("button");
+      button.className = "role-option";
+      button.type = "button";
+      const roleIndex = selectedRoles.indexOf(role);
+      button.textContent = roleIndex >= 0 ? `${roleIndex + 1}. ${role}` : role;
+      button.setAttribute("aria-pressed", String(roleIndex >= 0));
+      button.addEventListener("click", () => {
+        const selectedRoleIndex = selectedRoles.indexOf(role);
+        if (selectedRoleIndex >= 0) {
+          selectedRoles.splice(selectedRoleIndex, 1);
+        } else if (selectedRoles.length < 3) {
+          selectedRoles.push(role);
+        }
+        localStorage.setItem(storageKey, JSON.stringify(selectedRoles));
+        renderClassSection();
+      });
+      container.appendChild(button);
+    });
+    countElement.textContent = `${selectedRoles.length} / 3`;
+    statusElement.textContent = selectedRoles.length
+      ? `${selectedRoles.map((role, index) => `${index + 1}. ${role}`).join(", ")} selected in priority order.`
+      : "No preference; all options remain eligible.";
+  }
+
+  function getMatchingCombos() {
+    const getRoleScore = (ratings, roles) =>
+      roles.reduce(
+        (score, role, index) => score + (ratings[role] || 0) * (PRIORITY_THRESHOLDS.length - index),
+        0,
+      );
+    const meetsRoleThresholds = (ratings, roles) =>
+      roles.every((role, index) => (ratings[role] || 0) >= PRIORITY_THRESHOLDS[index]);
+    const matchesPriorities = (combo) =>
+      meetsRoleThresholds(combo.combatRatings, selectedCombatRoles) &&
+      meetsRoleThresholds(combo.outOfCombatRatings, selectedOutOfCombatRoles);
+    const scoreCombo = (combo) =>
+      getRoleScore(combo.combatRatings, selectedCombatRoles) +
+      getRoleScore(combo.outOfCombatRatings, selectedOutOfCombatRoles);
+
+    return [...getVisibleClassCombos()]
+      .filter(matchesPriorities)
+      .map((combo) => ({ ...combo, score: scoreCombo(combo) }))
+      .sort((first, second) => second.score - first.score || first.comboName.localeCompare(second.comboName));
+  }
+
+  function renderComboResults() {
+    const matches = getMatchingCombos();
+    const groupedCombos = [...new Map(matches.map((combo) => [combo.comboName, []])).entries()];
+    matches.forEach((combo) => {
+      groupedCombos.find(([name]) => name === combo.comboName)[1].push(combo);
+    });
+    elements.comboList.innerHTML = "";
+    elements.comboResults.hidden = false;
+    const preferenceText = selectedCombatRoles.length || selectedOutOfCombatRoles.length
+      ? "ranked by your priorities"
+      : "all options shown because no priorities were selected";
+    elements.comboResultsStatus.textContent = `${groupedCombos.length} combo${groupedCombos.length === 1 ? "" : "s"}; ${preferenceText}.`;
+
+    groupedCombos.forEach(([comboName, variants]) => {
+      const group = document.createElement("article");
+      group.className = "combo-group";
+      group.innerHTML = `<div class="combo-heading"><strong>${comboName}</strong><span>${variants[0].score} matched priorities</span></div>`;
+      const variantList = document.createElement("div");
+      variantList.className = "combo-variants";
+      variants.forEach((combo) => {
+        const button = document.createElement("button");
+        button.className = "combo-variant";
+        button.type = "button";
+        button.setAttribute(
+          "aria-pressed",
+          String(
+            selectedClassCombo?.className === combo.className &&
+              selectedClassCombo?.subclassName === combo.subclassName,
+          ),
+        );
+        button.innerHTML = `<strong>${combo.className} <span>/</span> ${combo.subclassName}</strong><small>${combo.sources.join(", ")}</small>`;
+        button.addEventListener("click", () => {
+          selectedClassCombo = combo;
+          localStorage.setItem(CLASS_COMBO_STORAGE_KEY, JSON.stringify(combo));
+          renderComboResults();
+        });
+        variantList.appendChild(button);
+      });
+      group.appendChild(variantList);
+      elements.comboList.appendChild(group);
+    });
+  }
+
+  function renderClassSection() {
+    const hasSubSpecies = Boolean(selectedSubSpeciesId);
+    elements.classSection.hidden = !hasSubSpecies;
+    if (!hasSubSpecies) {
+      elements.comboResults.hidden = true;
+      return;
+    }
+    renderRoleQuestion(
+      elements.combatRoleSelector,
+      COMBAT_ROLES,
+      selectedCombatRoles,
+      COMBAT_ROLES_STORAGE_KEY,
+      elements.combatRoleCount,
+      elements.combatRoleStatus,
+    );
+    renderRoleQuestion(
+      elements.outOfCombatRoleSelector,
+      OUT_OF_COMBAT_ROLES,
+      selectedOutOfCombatRoles,
+      OUT_OF_COMBAT_ROLES_STORAGE_KEY,
+      elements.outOfCombatRoleCount,
+      elements.outOfCombatRoleStatus,
+    );
+    renderComboResults();
   }
 
   function renderGenderSelector() {
@@ -315,9 +568,11 @@
         selectedGender = gender.id;
         selectedSpeciesId = null;
         selectedSubSpeciesId = null;
+        selectedClassCombo = null;
         localStorage.setItem(GENDER_STORAGE_KEY, selectedGender);
         localStorage.removeItem(SPECIES_STORAGE_KEY);
         localStorage.removeItem(SUB_SPECIES_STORAGE_KEY);
+        localStorage.removeItem(CLASS_COMBO_STORAGE_KEY);
         updateGenderSelection();
         renderSpeciesGallery();
       });
@@ -357,10 +612,52 @@
     });
   }
 
+  function renderClassSourceModes() {
+    elements.classSourceModeList.innerHTML = "";
+    CLASS_SOURCE_MODES.forEach((mode) => {
+      const button = document.createElement("button");
+      button.className = "source-mode-option";
+      button.type = "button";
+      button.setAttribute("aria-pressed", String(mode.id === selectedClassSourceModeId));
+      button.innerHTML = `<strong>${mode.name}</strong><span>${mode.description}</span>`;
+      button.addEventListener("click", () => {
+        selectedClassSourceModeId = mode.id;
+        localStorage.setItem(CLASS_SOURCE_MODE_STORAGE_KEY, selectedClassSourceModeId);
+        renderClassSourceModes();
+        updateClassSettingsSummary();
+        refreshClassAfterSettingsChange();
+      });
+      elements.classSourceModeList.appendChild(button);
+    });
+  }
+
   function updateSettingsSummary() {
     const mode = SOURCE_MODES.find((option) => option.id === selectedSourceModeId) || SOURCE_MODES[0];
     elements.enabledSourcesSummary.textContent = mode.name;
     elements.dragonmarkedToggle.checked = enableDragonmarked;
+  }
+
+  function updateClassSettingsSummary() {
+    const mode =
+      CLASS_SOURCE_MODES.find((option) => option.id === selectedClassSourceModeId) ||
+      CLASS_SOURCE_MODES[0];
+    elements.classSettingsSummary.textContent = mode.name;
+    elements.classEnabledSourcesSummary.textContent = mode.name;
+  }
+
+  function refreshClassAfterSettingsChange() {
+    if (
+      selectedClassCombo &&
+      !getVisibleClassCombos().some(
+        (combo) =>
+          combo.className === selectedClassCombo.className &&
+          combo.subclassName === selectedClassCombo.subclassName,
+      )
+    ) {
+      selectedClassCombo = null;
+      localStorage.removeItem(CLASS_COMBO_STORAGE_KEY);
+    }
+    renderClassSection();
   }
 
   function refreshSpeciesAfterSettingsChange() {
@@ -383,17 +680,19 @@
   }
 
   async function loadData() {
-    const [catalogResponse, groupResponse, speciesResponse, subSpeciesResponse] = await Promise.all([
+    const [catalogResponse, groupResponse, speciesResponse, subSpeciesResponse, classResponse] = await Promise.all([
       fetch("../backend/data/species-catalog.json?v=3"),
       fetch("../backend/data/species-groups.json?v=3"),
       fetch("../backend/data/species.json?v=3"),
       fetch("../backend/data/species-subspecies.csv?v=1"),
+      fetch("../backend/data/class-combos.json?v=1"),
     ]);
     if (
       !catalogResponse.ok ||
       !groupResponse.ok ||
       !speciesResponse.ok ||
-      !subSpeciesResponse.ok
+      !subSpeciesResponse.ok ||
+      !classResponse.ok
     ) {
       throw new Error("Could not load species data.");
     }
@@ -401,6 +700,7 @@
     groupManifest = await groupResponse.json();
     const speciesData = await speciesResponse.json();
     const subSpeciesRows = parseSubSpeciesCsv(await subSpeciesResponse.text());
+    classCombos = await classResponse.json();
     catalog = subSpeciesRows.map((option) => {
       const descriptionEntry = speciesData.species.find(
         (species) =>
@@ -414,17 +714,29 @@
   async function init() {
     renderGenderSelector();
     renderSourceModes();
+    renderClassSourceModes();
     updateSettingsSummary();
+    updateClassSettingsSummary();
     elements.startButton.addEventListener("click", () => showScreen("app"));
     elements.settingsButton.addEventListener("click", () => showScreen("settings"));
     elements.subSpeciesSettingsButton.addEventListener("click", () => {
       updateSettingsSummary();
       showScreen("subSpeciesSettings");
     });
+    elements.classSettingsButton.addEventListener("click", () => {
+      updateClassSettingsSummary();
+      showScreen("classSettings");
+    });
     elements.enabledSourcesButton.addEventListener("click", () => showScreen("enabledSources"));
+    elements.classEnabledSourcesButton.addEventListener("click", () => {
+      updateClassSettingsSummary();
+      showScreen("classEnabledSources");
+    });
     elements.settingsBackButton.addEventListener("click", () => showScreen("landing"));
     elements.subSpeciesSettingsBackButton.addEventListener("click", () => showScreen("settings"));
     elements.enabledSourcesBackButton.addEventListener("click", () => showScreen("subSpeciesSettings"));
+    elements.classSettingsBackButton.addEventListener("click", () => showScreen("settings"));
+    elements.classEnabledSourcesBackButton.addEventListener("click", () => showScreen("classSettings"));
     elements.dragonmarkedToggle.addEventListener("change", () => {
       enableDragonmarked = elements.dragonmarkedToggle.checked;
       localStorage.setItem(DRAGONMARKED_STORAGE_KEY, String(enableDragonmarked));
@@ -441,6 +753,7 @@
     try {
       await loadData();
       renderSpeciesGallery();
+      renderClassSection();
     } catch (error) {
       elements.selectionStatus.textContent = error.message;
     }

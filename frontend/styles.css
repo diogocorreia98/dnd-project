@@ -503,6 +503,108 @@ input {
   box-shadow: inset 0 0 0 1px var(--accent);
 }
 
+.class-section {
+  margin-top: 72px;
+  padding-top: 48px;
+  border-top: 1px solid var(--line);
+}
+
+.role-question,
+.combo-results {
+  margin-top: 20px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow);
+}
+
+.priority-count {
+  flex: 0 0 auto;
+  color: var(--accent-strong);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.role-selector,
+.combo-variants {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.role-option,
+.combo-variant {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-quiet);
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+}
+
+.role-option {
+  min-height: 52px;
+  padding: 12px 14px;
+  font-weight: 800;
+}
+
+.role-option[aria-pressed="true"],
+.combo-variant[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.combo-list {
+  display: grid;
+  gap: 14px;
+}
+
+.combo-group {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-quiet);
+}
+
+.combo-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.combo-heading span,
+.combo-variant small {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.combo-variant {
+  display: grid;
+  gap: 6px;
+  min-height: 70px;
+  padding: 12px;
+}
+
+.combo-variant strong span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+@media (max-width: 620px) {
+  .role-selector,
+  .combo-variants {
+    grid-template-columns: 1fr;
+  }
+
+  .combo-heading {
+    display: grid;
+    gap: 5px;
+  }
+}
+
 @media (max-width: 920px) {
   .app-shell {
     grid-template-columns: 1fr;
