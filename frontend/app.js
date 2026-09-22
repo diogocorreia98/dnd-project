@@ -487,6 +487,15 @@
       .sort((first, second) => second.score - first.score || first.comboName.localeCompare(second.comboName));
   }
 
+  function getMaximumPriorityScore() {
+    const maximumRoleScore = (roles) =>
+      roles.reduce(
+        (score, role, index) => score + 5 * (PRIORITY_THRESHOLDS.length - index),
+        0,
+      );
+    return maximumRoleScore(selectedCombatRoles) + maximumRoleScore(selectedOutOfCombatRoles);
+  }
+
   function renderComboResults() {
     const matches = getMatchingCombos();
     const groupedCombos = [...new Map(matches.map((combo) => [combo.comboName, []])).entries()];
@@ -499,11 +508,15 @@
       ? "ranked by your priorities"
       : "all options shown because no priorities were selected";
     elements.comboResultsStatus.textContent = `${groupedCombos.length} combo${groupedCombos.length === 1 ? "" : "s"}; ${preferenceText}.`;
+    const maximumPriorityScore = getMaximumPriorityScore();
 
     groupedCombos.forEach(([comboName, variants]) => {
       const group = document.createElement("article");
       group.className = "combo-group";
-      group.innerHTML = `<div class="combo-heading"><strong>${comboName}</strong><span>${variants[0].score} matched priorities</span></div>`;
+      const scorePercentage = maximumPriorityScore
+        ? Math.round((variants[0].score / maximumPriorityScore) * 100)
+        : 0;
+      group.innerHTML = `<div class="combo-heading"><strong>${comboName}</strong><span>${scorePercentage}% priority match</span></div>`;
       const variantList = document.createElement("div");
       variantList.className = "combo-variants";
       variants.forEach((combo) => {
@@ -517,7 +530,10 @@
               selectedClassCombo?.subclassName === combo.subclassName,
           ),
         );
-        button.innerHTML = `<strong>${combo.className} <span>/</span> ${combo.subclassName}</strong><small>${combo.sources.join(", ")}</small>`;
+          const classSource = combo.sources[0] || "Source not listed";
+          const subclassSource = combo.sources.slice(1).join(", ") || "Source not listed";
+          const subclassName = combo.subclassName.replace(/\s*\([A-Za-z0-9.-]{2,8}\)$/g, "");
+          button.innerHTML = `<strong>${combo.className} - ${classSource}<br />${subclassName} - ${subclassSource}</strong>`;
         button.addEventListener("click", () => {
           selectedClassCombo = combo;
           localStorage.setItem(CLASS_COMBO_STORAGE_KEY, JSON.stringify(combo));

@@ -588,6 +588,12 @@ input {
   padding: 12px;
 }
 
+.combo-variant strong {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
 .combo-variant strong span {
   color: var(--muted);
   font-weight: 400;
