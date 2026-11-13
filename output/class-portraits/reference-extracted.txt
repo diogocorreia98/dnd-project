@@ -1,0 +1,725 @@
+D&D CLASS + SUBCLASS
+Visual Generation Reference
+Latest non-superseded versions from the requested combo set
+Research cutoff: 26 September 2026
+146 class + subclass combinations
+Built as a handoff file for image generation: use the entries directly and skip subclass research unless the user explicitly asks for a refresh.
+
+How to use this reference
+Purpose. This file is intentionally optimized for a future image-generation run. It contains the current retained concept, the latest source/version to use, and a concrete visual/narrative instruction for making each build recognizable without re-researching the subclass.
+Treat the document as authoritative for this requested set as of the research cutoff. Do not add older or superseded variants that are absent here.
+For an older 5e subclass marked as legacy, keep it because no later published replacement existed at the cutoff; combine that subclass fantasy with the current class chassis shown at the start of its class section.
+For Warlocks, visually externalize patron influence whenever possible. For Barbarians, make Rage visibly active. Apply the same principle to every class: show what the build is doing, not just what clothes it wears.
+A patron, ancestor, beast, spirit, construct, swarm, or other companion may appear as a spectral projection, magical manifestation, blueprint, shadow, or tightly localized summoned effect. It should not become a second fully staged character or an environmental scene.
+Preserve the species-neutral base character. Temporary transformations and magical overlays are allowed when they are subclass mechanics, but do not turn thematic motifs into permanent ancestry markers.
+For the image batch: create three separate full-body files per combination - Male, Female, Androgynous - each on a genuinely transparent background, with one main character and no scenery, labels, logos, frames, or cropped equipment.
+Version/status legend
+
+Class index
+
+Barbarian
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show Rage as an active physical state: aggressive forward motion, reckless commitment, heavy martial impact. Any supernatural effect must come from the subclass, not generic glowing magic.
+
+Bard
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show active performance or expressive inspiration magic: voice, instrument, dance, rhetoric, or another art form visibly affecting the scene. The subclass should determine what the performance manifests.
+
+Cleric
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show a holy symbol or ritual focus and unmistakable divine power. The domain must visibly define the shape, symbols, energy, and purpose of that divine manifestation.
+
+Druid
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show primal spellcraft, a druidic focus, or a Wild Shape-linked manifestation. Nature magic should be specific to the circle rather than generic leaves and green glow.
+
+Fighter
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show trained martial competence first: deliberate weapon handling, armor or tactical gear, and a readable fighting stance. Subclass identity should be communicated through combat technique, specialized gear, or its specific supernatural discipline.
+
+Monk
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show disciplined unarmed or monk-weapon movement and controlled Focus energy. The pose should look like a technique in progress, with subclass-specific motion or supernatural expression.
+
+Paladin
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show an oath-bound holy warrior: martial armament plus concentrated divine conviction, typically through a smite, aura, sacred emblem, or oath-shaped manifestation. The oath's values should be legible in the pose and effects.
+
+Ranger
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show a mobile hunter and wilderness specialist with practical tracking gear, ranged or paired weapons, and a clear quarry-focused action. Supernatural effects should express the subclass's hunting method.
+
+Rogue
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show precision, mobility, stealth, deception, or opportunistic attack rather than frontal soldiering. The subclass must explain how this Rogue creates or exploits an opening.
+
+Sorcerer
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show magic erupting innately from the character rather than being learned from a book or granted by an external patron. The origin should visibly shape the energy, posture, and magical geometry.
+
+Warlock
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show pact magic and an external source of power. Whenever possible, make the patron influence narratively visible as a spectral adviser, looming silhouette, tether, reflected figure, symbolic avatar, or other localized manifestation behind or around the Warlock.
+
+Wizard
+Current class chassis: Player's Handbook (2024) - Official 5.5e class chassis
+Class visual baseline: Show deliberate learned magic: spellbook, arcane notes, prepared sigils, precise gestures, or controlled formulae. The subclass should determine the school or technique being demonstrated.
+
+Artificer
+Current class chassis: Eberron: Forge of the Artificer (2025) - Official 5.5e Artificer class chassis
+Class visual baseline: Show magic engineered through tools, infusions, runes, devices, armor, alchemy, maps, or constructs. Effects should look designed and operated rather than innate.
+
+Blood Hunter
+Current class chassis: Critical Role Blood Hunter, current D&D Beyond version - Partner / Critical Role class
+Class visual baseline: Show hemocraft as a deliberate cost: a crimson rite or blood-red occult sigil energizing a weapon, paired with hunter tools and a grim monster-hunting stance.
+
+Gunslinger
+Current class chassis: Valda's Spire of Secrets: Player Pack 2 (2026) - Partner / Mage Hand Press class
+Class visual baseline: Show firearms as the unmistakable center of the build: practiced gun handling, grit, precision, smoke, casings, and cinematic trick-shot motion rather than generic archery or spellcasting.
+
+Research basis and primary references
+Cutoff: 26 September 2026. Published material was preferred over Unearthed Arcana/playtest material. A legacy published subclass is retained only when the requested concept had no later published replacement by the cutoff.
+Player's Handbook (2024) update / supersession guidance
+https://www.dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024
+Forgotten Realms: Heroes of Faerun (2025)
+https://www.dndbeyond.com/sources/dnd/frhof
+Eberron: Forge of the Artificer (2025)
+https://www.dndbeyond.com/sources/dnd/efota
+Ravenloft: The Horrors Within (2026)
+https://www.dndbeyond.com/sources/dnd/rthw
+Arcana Unleashed (2026)
+https://www.dndbeyond.com/sources/dnd/au
+Exploring Eberron - current 2024-rules edition
+https://www.dndbeyond.com/sources/dnd/exeb
+Valda's Spire of Secrets: Player Pack 1 - Mage Hand Press
+https://marketplace.dndbeyond.com/category/DBFJVUWLA
+Valda's Spire of Secrets: Player Pack 2 - D&D Beyond support/release record
+https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/242068-valdas-spire-of-secrets-player-pack-2-issues
+Critical Role Gunslinger Fighter - D&D Beyond
+https://www.dndbeyond.com/subclasses/2746958-gunslinger-cr
+Critical Role Blood Hunter - D&D Beyond
+https://www.dndbeyond.com/classes/357975-blood-hunter
+Legacy-source note. Unsuperseded legacy entries draw from their latest published 5e source, principally Xanathar's Guide to Everything, Tasha's Cauldron of Everything, Sword Coast Adventurer's Guide, and the 2014 Player's Handbook where specifically still applicable. Partner entries use the current D&D Beyond version/source named in the entry.
+Handoff instruction for a future Work/image-generation run: Use this document as the subclass research layer. Do not research the listed combinations again unless the user explicitly requests a post-26-Sep-2026 refresh. Apply the supplied visual identity and narrative beat to the user's species-neutral asset prompt, then generate the three separate transparent-background gender variants for each listed combination.
+SOURCE-OF-TRUTH HANDOFF
+Generate only the combinations present in this document. Superseded versions have already been removed. For each retained combination, inherit the class baseline and then make the subclass-specific narrative beat unmistakable in the image.
+Status	Meaning
+Official 5.5e	Published current-version subclass for the 2024/5.5e rules family.
+Official 5.5e revision	A later published revision of an older subclass; this is the version to use.
+Official legacy 5e; no published replacement	Older published subclass retained because no later published replacement existed by 26 Sep 2026.
+Partner / third-party	Current D&D Beyond partner or third-party content from the named publisher/source; retained because it is part of the user-provided concept set.
+Class	Count	Current class chassis
+Barbarian	10	Player's Handbook (2024)
+Bard	12	Player's Handbook (2024)
+Cleric	15	Player's Handbook (2024)
+Druid	10	Player's Handbook (2024)
+Fighter	11	Player's Handbook (2024)
+Monk	13	Player's Handbook (2024)
+Paladin	11	Player's Handbook (2024)
+Ranger	9	Player's Handbook (2024)
+Rogue	11	Player's Handbook (2024)
+Sorcerer	9	Player's Handbook (2024)
+Warlock	11	Player's Handbook (2024)
+Wizard	12	Player's Handbook (2024)
+Artificer	7	Eberron: Forge of the Artificer (2025)
+Blood Hunter	4	Critical Role Blood Hunter, current D&D Beyond version
+Gunslinger	1	Valda's Spire of Secrets: Player Pack 2 (2026)
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Path of the Berserker Barbarian
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Pure martial fury: heavy weapon, battered practical gear, no decorative spellcasting. Rage should read as relentless aggression and refusal to stop.
+Narrative beat: Freeze the Barbarian mid-Rage in a reckless full-power swing or charge, with dust/debris-like impact accents but essentially no supernatural aura.
+Path of the Wild Heart Barbarian
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Primal Rage guided by animal aspects. Use carved totems, hides or animal-symbol ornaments; keep the character's biology species-neutral.
+Narrative beat: During Rage, manifest one or more translucent beast-spirit overlays (such as bear, eagle, wolf, or another chosen aspect) circling or bracing the Barbarian.
+Path of the World Tree Barbarian
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Rage connected to the cosmic World Tree: roots, branches, life-force and supernatural reach/transportation motifs.
+Narrative beat: Show Rage erupting as spectral roots and branches around the body or weapon, with a luminous tree silhouette rising behind the character as a localized effect.
+Path of the Zealot Barbarian
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Fanatical, death-defying Rage empowered by divine or otherworldly conviction. Martial first, sacred power second.
+Narrative beat: Show a brutal attack wrapped in concentrated radiant or necrotic-looking sacred energy, with a small halo/sigil implying that divine purpose keeps the Barbarian fighting past mortal limits.
+Path of Wild Magic Barbarian
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Rage accidentally detonates unpredictable magic. Equipment remains recognizably Barbarian while uncontrolled arcane phenomena erupt around it.
+Narrative beat: Show the Barbarian raging while several restrained, clearly chaotic surge effects burst locally—teleport sparks, force flares, spectral growths, or unstable motes—without becoming a generic wizard.
+Path of the Ancestral Guardian Barbarian
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: A warrior protected and guided by ancestral spirits. The spirits are guardians, not undead minions.
+Narrative beat: Show the Barbarian in Rage while translucent ancestral warriors interpose shields, weapons, or protective gestures around them and toward an implied off-frame foe.
+Path of the Battlerager Barbarian
+Retained current concept	Sword Coast Adventurer's Guide (2015)
+Official legacy 5e; no published replacement	Identity: Close-contact Rage built around dangerous spiked armor, grappling and body-checking rather than elegant weapon technique.
+Narrative beat: Show a forward-driving grapple/shoulder-charge pose with visibly functional spikes on armor and gauntlets, communicating that the armor itself is a weapon.
+Path of the Beast Barbarian
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Rage temporarily manifests bestial natural weapons and predatory movement. The base character must remain species-neutral outside the active magical transformation.
+Narrative beat: Show temporary spectral or magical claws, fanged-maw energy, or a tail-like combat manifestation forming only during Rage, clearly reading as a power effect rather than ancestry.
+Path of the Storm Herald Barbarian
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Rage radiates an environmental storm aura tied to desert, sea, or tundra power.
+Narrative beat: Show a raging melee pose wrapped in one coherent storm expression—scorching heat/sand, crashing sea-lightning, or biting frost—tight to the silhouette rather than as scenery.
+Path of the Muscle Wizard Barbarian
+Retained current concept	Valda's Spire of Secrets: Player Pack 1 (2025)
+Partner / Mage Hand Press, 2024-rules update	Identity: A comedic-but-legible 'wizard' whose spells are feats of absurd physical strength. Combine classic arcane accessories with an unmistakably Barbarian body language.
+Narrative beat: Show a spellbook, wand or wizard hat used almost ceremonially while the actual 'casting' is a devastating punch, suplex-like motion, or weaponless power pose—visually selling 'I cast fist.'
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+College of Dance Bard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Performance magic through athletic dance and rhythm rather than a conventional instrument; highly mobile, kinetic and supportive.
+Narrative beat: Show a precise dance step or spinning kick with ribbons of musical rhythm/energy tracing the movement and visibly empowering the performance.
+College of Glamour Bard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Fey-inspired supernatural charisma, majesty and enthralling beauty. Clothing can feel courtly or theatrical without making the species fey.
+Narrative beat: Show the Bard performing while a luminous mantle/crown-like glamour and subtle audience-commanding fey shapes bloom behind them, as though presence alone controls the room.
+College of Lore Bard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Scholar-performer and collector of stories, secrets and magical knowledge; broad magical versatility and cutting wit.
+Narrative beat: Show instrument or spoken performance paired with floating notes, scroll scraps and sharp rune-like 'cutting words' slicing through an implied hostile effect.
+College of Valor Bard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Battlefield bard who inspires through martial heroism: armor, weapon and performance belong together.
+Narrative beat: Show the Bard actively fighting with weapon/shield while still performing or projecting an inspiration motif, as though a war-song is driving the charge.
+College of the Moon Bard
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e	Identity: Moonshae/fey bardic tradition using moonlight, primal renewal, teleportation and restorative lunar magic.
+Narrative beat: Show a performance beneath a tight crescent/phase halo with silver moonlight, a fading afterimage suggesting a moonlit teleport, and restorative motes rather than generic star magic.
+College of Creation Bard
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Music taps the primal Song of Creation, making objects dance or bringing ideas into physical form.
+Narrative beat: Show notes/rhythm physically assembling or animating a small object near the Bard, with a distinct floating mote of creative potential.
+College of Eloquence Bard
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Master orator whose words persuade, inspire and dismantle resistance; less about flashy music, more about impossible rhetoric.
+Narrative beat: Show an open, commanding speaking gesture as elegant speech-glyphs or resonant rings flow from the voice, with one strand becoming an uplifting inspiration motif and another a destabilizing verbal barb.
+College of Spirits Bard
+Retained current concept	Ravenloft: The Horrors Within (2026)
+Official 5.5e revision	Identity: Spirit medium who channels distinct dead storytellers for changing effects; occult performance and communication with the beyond.
+Narrative beat: Show a spirit focus or performance while several clearly different spectral storyteller archetypes hover close behind—warrior, priest, fortune-teller, trickster—one of them visibly answering the Bard.
+College of Swords Bard
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Showman-duelist whose blade flourishes are part performance, part combat technique.
+Narrative beat: Show an elegant blade flourish with a secondary performance prop or instrument, motion trails emphasizing acrobatic fencing rather than soldierly swordplay.
+College of Whispers Bard
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Courtly infiltrator who weaponizes fear, secrets and psychic menace while passing as an ordinary performer.
+Narrative beat: Show an outwardly polished Bard with a sinister shadow behind the smile—whisper-like tendrils, a hidden dagger, and a faint psychic blade/face silhouette suggesting stolen identity and terror.
+College of Masks Bard
+Retained current concept	Valda's Spire of Secrets: Player Pack 2 (2026)
+Partner / Mage Hand Press	Identity: Persona-swapping performer who dons magical masks to assume different archetypal roles and capabilities.
+Narrative beat: Show several distinct theatrical masks orbiting or hanging from the costume, with one active mask worn or glowing and its matching archetype subtly changing posture/equipment through spectral overlays.
+College of the Dirge Singer Bard
+Retained current concept	Exploring Eberron, 2024-rules revision (D&D Beyond current edition)
+Partner / KB Presents	Identity: Martial historian and battlefield commander whose songs preserve victories, defeats and tactical memory; not primarily a necromancer.
+Narrative beat: Show a war-horn, drum or commanding instrument with ghostlike echoes of historic formations/banners as abstract memories, while the Bard points allies toward an implied tactical opening.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Life Domain Cleric
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Divine preservation, healing and vitality. Armor/vestments should feel protective and compassionate rather than pacifist.
+Narrative beat: Show one hand or holy symbol releasing strong restorative radiance that visibly knits a symbolic wound/leaf of life, while the other maintains a protective stance.
+Light Domain Cleric
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Solar and flame-like divine power used to illuminate, ward and burn away darkness.
+Narrative beat: Show a sunburst holy symbol and a controlled corona of brilliant light/fire, with a flare-like shield around the Cleric and a searing ray ready in the other hand.
+Trickery Domain Cleric
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Divine deception, stealth, misdirection and illusion; sacred power expressed through duplicity rather than overt holiness.
+Narrative beat: Show a believable illusory duplicate or split afterimage beside the Cleric, with veiled/shadowed vestments and a sly ritual gesture directing the decoy.
+War Domain Cleric
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Martial priest empowered for battle: heavy armor, weapon mastery and direct divine aggression.
+Narrative beat: Show the Cleric mid-weapon strike while sacred battle sigils or a war-banner-like aura intensify the blow, making the holy and martial identities equally obvious.
+Arcana Domain Cleric
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e revision	Identity: Divine devotion to magic itself: clerical ritual fused with formal arcane structure.
+Narrative beat: Show a holy symbol centered inside precise wizard-like spell geometry, with arcane formulae orbiting sacred iconography so the image reads as 'priest of magic,' not simply a Wizard.
+Knowledge Domain Cleric
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e revision	Identity: Sacred scholarship, secrets, memory and supernatural understanding; divine insight rather than raw damage.
+Narrative beat: Show scripture/scrolls and a holy symbol surrounded by luminous script, memory fragments or an eye-like knowledge sigil, with the Cleric actively reading the truth in an unseen subject.
+Nature Domain Cleric
+Retained current concept	Player's Handbook (2014)
+Official legacy 5e; no published replacement	Identity: Priest of nature deities: divine authority expressed through plants, animals and primal elements rather than druidic shapeshifting.
+Narrative beat: Show holy vestments/armor with a sacred nature emblem while vines, roots or a spectral animal blessing respond to prayer, keeping the source clearly divine.
+Tempest Domain Cleric
+Retained current concept	Player's Handbook (2014)
+Official legacy 5e; no published replacement	Identity: Storm priest wielding thunder, lightning and violent weather as divine judgment.
+Narrative beat: Show a raised weapon or holy symbol calling a tight thunderhead/lightning arc around the Cleric, with wind-whipped cloth and a forceful, commanding stance.
+Forge Domain Cleric
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Divine smith and armored maker: sacred fire, metalwork and blessed equipment.
+Narrative beat: Show a smith's hammer or weapon over glowing metal/runes, sparks and forge heat flowing directly into armor or a weapon as a holy blessing.
+Grave Domain Cleric
+Retained current concept	Ravenloft: The Horrors Within (2026)
+Official 5.5e revision	Identity: Guardian of the proper boundary between life and death; opposes undeath and protects those near death. Not a necromancer who commands corpses.
+Narrative beat: Show a funerary lantern or grave-mark holy symbol with one hand pulling a dim soul-light back toward life and the other placing a dark curse/threshold mark on an implied enemy.
+Order Domain Cleric
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Divine law, command and hierarchy. Power should feel structured, authoritative and coordinated.
+Narrative beat: Show rigid geometric sacred sigils and a commanding gesture, with luminous lines/arrows suggesting allies being directed into disciplined action.
+Peace Domain Cleric
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Divine bonds, reconciliation and mutual protection; supportive power through connection rather than passivity.
+Narrative beat: Show calm sacred radiance and several luminous bond-threads extending from the Cleric toward off-frame allies, visibly forming a protective network without adding other characters.
+Twilight Domain Cleric
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Protective divine twilight: the safe boundary between light and dark, stars and dusk, vigilance and shelter.
+Narrative beat: Show the Cleric inside a localized dome/halo of deep blue dusk with small stars or a crescent, creating a visibly protective sanctuary rather than generic darkness.
+Dragon Domain Cleric
+Retained current concept	Valda's Spire of Secrets: Player Pack 2 (2026)
+Partner / Mage Hand Press	Identity: Priest devoted to draconic gods and draconic divine power. Express the dragon through symbols, armor and projected energy—not permanent anatomy.
+Narrative beat: Show a dragon-emblem holy focus, scale-patterned equipment, and a spectral dragon head or breath-shaped divine burst looming from the prayer gesture.
+Mind Domain Cleric
+Retained current concept	Exploring Eberron, 2024-rules revision (D&D Beyond current edition)
+Partner / KB Presents	Identity: Divine psionic tradition treating consciousness and thought as sacred power; psychic attack and mental protection.
+Narrative beat: Show a holy symbol framed by concentric psychic geometry around the head/hands, with a sharp mind-blade or telepathic pulse counterbalanced by a protective mental ward.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Circle of the Land Druid
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Primal caster bonded to terrain and natural cycles. The land itself should visibly answer the Druid.
+Narrative beat: Show the Druid channeling several tightly framed terrain motifs—roots, stone, mist, desert heat, coastal spray, or similar—through one staff/focus as a coherent land-spell.
+Circle of the Moon Druid
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Wild Shape specialist whose identity is transformation and close-combat beast forms, with lunar mysticism as a secondary cue.
+Narrative beat: Show the humanoid Druid in the instant of transforming, surrounded by a translucent beast silhouette and crescent/lunar transition effect rather than standing beside a normal animal.
+Circle of the Sea Druid
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Oceanic primal power: surf, storms, currents and wrath of the sea.
+Narrative beat: Show a spiral of water/spray and wind wrapped close around the Druid, shaped like a crashing wave or maelstrom around staff and limbs.
+Circle of the Stars Druid
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Druidic astronomy and Starry Form; constellations become functional magical shapes.
+Narrative beat: Show a star map across a translucent body-aura and one clear constellation archetype—archer, chalice or dragon-like pattern—forming around the Druid as the active Starry Form.
+Circle of Dreams Druid
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Feywild-linked druid of dreams, refuge and restorative magic; soft, otherworldly rather than aggressively elemental.
+Narrative beat: Show a hazy dream-bloom of fey motes, moonlit flowers and soothing light gathering around the Druid's hands, with a small doorway/veil-like shimmer suggesting hidden refuge.
+Circle of Spores Druid
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Fungal symbiosis, decay and renewal; halo of spores and necrotic-primal power.
+Narrative beat: Show mushrooms/fungal motifs on gear and a dense controlled cloud of luminous spores forming a defensive halo or striking tendrils, without turning the body permanently fungal.
+Circle of Wildfire Druid
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Destruction and rebirth through controlled wildfire, normally paired with a Wildfire Spirit.
+Narrative beat: Show flame flowing into fresh sprouts/flowers around the Druid and a small spectral fire-spirit silhouette as a summoned effect, clearly communicating burn-and-regrow.
+Circle of the Shepherd Druid
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Protector and summoner of beasts/fey with spirit totems that guide and strengthen the group.
+Narrative beat: Show a shepherd-like staff and several translucent animal spirit totems—bear, hawk/unicorn-like guardian motifs—circling the Druid as summoned guidance, not physical companions.
+Circle of the City Druid
+Retained current concept	Valda's Spire of Secrets: Player Pack 2 (2026)
+Partner / Mage Hand Press	Identity: Urban druidism: streets, masonry, glass, alleys and the living ecosystem of civilization replace forest imagery.
+Narrative beat: Show primal magic manipulating cobblestones, brick fragments, metal, broken glass or creeping urban weeds close to the silhouette, with the Druid treating the city itself as terrain.
+Circle of the Forged Druid
+Retained current concept	Exploring Eberron, 2024-rules revision (D&D Beyond current edition)
+Partner / KB Presents	Identity: Construct-like Wild Shape: primal transformation expressed through wood, steel and crafted materials rather than flesh.
+Narrative beat: Show a Wild Shape transition where a spectral beast form assembles from interlocking wood/metal plates and druidic runes around the humanoid, clearly temporary and not the character's ancestry.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Battle Master Fighter
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Tactical weapon expert who wins through maneuvers, timing and battlefield reading rather than supernatural power.
+Narrative beat: Show a technically perfect maneuver in progress—disarm, trip, feint, parry or command—with clean motion lines and multiple tactical options visibly carried on the gear.
+Champion Fighter
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Peak martial athlete: simple, direct, physically exceptional and reliable; no magical gimmick required.
+Narrative beat: Show an explosive athletic strike, leap or shield rush with pristine weapon control and a trophy-like heroic silhouette, keeping magic absent.
+Eldritch Knight Fighter
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Martial fighter who binds arcane spellcasting directly to weapon combat.
+Narrative beat: Show sword/weapon and spell in the same action: a bound weapon marked with arcane sigils while a shield, elemental bolt or other compact spell is cast with the free hand.
+Psi Warrior Fighter
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Fighter empowered by disciplined psionics: telekinetic force, protective fields and mental propulsion.
+Narrative beat: Show a martial strike augmented by translucent force planes or telekinetically suspended debris, with a clean psychic halo rather than wizard-style runes.
+Arcane Archer Fighter
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e revision	Identity: Elite archer who threads spells directly into arrows; magical ammunition should remain anchored to expert archery.
+Narrative beat: Show a drawn bow with several different arcane arrow glyphs orbiting the shaft or quiver, one arrow bending/branching through a magical trajectory as the shot is released.
+Banneret Fighter
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e	Identity: Inspiring battlefield leader and knightly standard-bearer; martial support through rallying command.
+Narrative beat: Show a heraldic banner/tabard and a decisive command gesture made mid-fight, with rallying lines or a dragon/knightly crest amplifying allies off-frame.
+Cavalier Fighter
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Defensive mounted-warrior tradition specializing in holding enemies in place and protecting companions; must still work without depicting a second character.
+Narrative beat: Use lance/shield, spurs, saddle tack or riding coat cues, but pose the Fighter planted as a guardian intercepting an attack, emphasizing control and protection rather than requiring a horse.
+Rune Knight Fighter
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Giant-derived rune magic carved into arms and armor, with supernatural size and strength as combat tools.
+Narrative beat: Show several large engraved runes blazing across weapon/armor while a towering translucent giant-scale outline expands around the Fighter, implying Giant's Might without changing species.
+Samurai Fighter
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Disciplined warrior defined by resolve, precise bursts of offense and courtly/martial composure.
+Narrative beat: Show a poised, balanced weapon stance with restrained armor and a sudden decisive strike after a moment of stillness; keep supernatural effects absent or extremely subtle.
+Gunslinger Fighter
+Retained current concept	Critical Role: Gunslinger Fighter, current D&D Beyond partner version
+Partner / Critical Role	Identity: Firearm specialist built around crafting/maintaining guns, risk, grit and spectacular trick shots.
+Narrative beat: Show a distinctive custom firearm with visible mechanisms/tools and a precision shot with smoke/spark trajectory, the Fighter visibly managing a dangerous engineered weapon.
+Dungeoneer Fighter
+Retained current concept	Valda's Spire of Secrets: Player Pack 1 (2025)
+Partner / Mage Hand Press, 2024-rules update	Identity: Professional dungeon-delver: traps, secret doors, improvised survival, monster slaying and absurdly complete adventuring gear.
+Narrative beat: Show the Fighter loaded with rope, lantern, pitons, tools and loot, weapon ready while one hand detects/disarms a trap or braces a door—an adventurer prepared for every dungeon problem.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Warrior of Mercy Monk
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Masked healer/executioner using disciplined touch to restore or harm; compassion and mortality in the same hands.
+Narrative beat: Show the Monk in a flowing strike with one hand radiating restorative light and the other carrying a darker necrotic touch, with a distinctive physician-like mask as equipment.
+Warrior of Shadow Monk
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Stealth monk who manipulates darkness and moves through shadows with supernatural speed.
+Narrative beat: Show a low martial stance partly dissolving into a shadow afterimage, with a second dark silhouette marking the end point of a teleport-like step.
+Warrior of the Elements Monk
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Martial artist extending strikes with elemental forces, mixing body movement and controlled fire/water/air/earth.
+Narrative beat: Show one punch/kick projecting an elongated elemental limb or wave, with two or three secondary elements orbiting subtly to make the four-element discipline unmistakable.
+Warrior of the Open Hand Monk
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Pure mastery of unarmed technique, bodily control and disruptive strikes; minimal mystic spectacle.
+Narrative beat: Show a perfectly centered open-hand strike producing a restrained pressure-wave/impact ring, with the stance reading as balance, leverage and precision rather than elemental magic.
+Warrior of the Mystic Arts Monk
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e	Identity: Arcane martial artist who literally weaves spellcasting into strikes; magic should be part of the kata, not a separate Wizard pose.
+Narrative beat: Show arcane glyphs threading along fists/feet as a blow lands, with a spell effect released directly through the martial technique.
+Way of the Astral Self Monk
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Monk externalizing the true self as astral arms, visage and body, using spiritual projection in combat.
+Narrative beat: Show large translucent astral arms and a partial spectral visage/body layered behind the Monk, all mirroring or extending the physical martial pose.
+Way of the Drunken Master Monk
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Deceptive, swaying martial style that weaponizes apparent imbalance, sudden redirection and comic unpredictability.
+Narrative beat: Show an intentionally off-balance dodge flowing immediately into a precise counterstrike, with a flask or cup as a style prop but no implication that intoxication itself grants the power.
+Way of the Kensei Monk
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Weapon-focused monk treating chosen weapons as extensions of disciplined martial practice.
+Narrative beat: Show a single signature weapon used with monk-like economy and grace, paired with an empty-hand guard and a subtle Focus trace linking body and blade.
+Way of the Long Death Monk
+Retained current concept	Sword Coast Adventurer's Guide (2015)
+Official legacy 5e; no published replacement	Identity: Ascetic study of mortality, fear and the moment of death; grim but not necessarily undead.
+Narrative beat: Show prayer beads or funerary tokens and a calm martial stance wrapped in a thin deathly aura, with a skull/shadow motif that causes fear without changing the Monk's body.
+Way of the Sun Soul Monk
+Retained current concept	Sword Coast Adventurer's Guide (2015)
+Official legacy 5e; no published replacement	Identity: Radiant martial artist who projects sun-like energy from disciplined strikes.
+Narrative beat: Show a punch or palm strike firing a concentrated radiant bolt, with a small solar corona around the hands/body and no weapon competing for attention.
+Way of the Cobalt Soul Monk
+Retained current concept	Tal'Dorei Campaign Setting Reborn; current D&D Beyond compatibility
+Partner / Critical Role	Identity: Scholar-investigator monk who studies opponents, extracts information and exploits observed weaknesses.
+Narrative beat: Show notebooks/codex elements on the belt and thin analytical sigils mapping weak points around the Monk's striking hand, combining researcher and martial interrogator.
+Warrior of the Street Monk
+Retained current concept	Valda's Spire of Secrets: Player Pack 1 (2025)
+Partner / Mage Hand Press, 2024-rules update	Identity: Fighting-game-inspired street martial artist using combo chains, uppercuts, ki bursts and extreme mobility.
+Narrative beat: Show a dynamic combo finisher—rising uppercut, spinning strike or air-dash—with bold localized impact arcs and a small ki projectile or combo afterimage.
+Warrior of the Living Weapon Monk
+Retained current concept	Exploring Eberron, 2024-rules revision (D&D Beyond current edition)
+Partner / KB Presents	Identity: Monk who turns the body into an adaptable supernatural weapon, altering reach, damage expression or material qualities.
+Narrative beat: Show temporary magical extensions or material overlays forming along arms/legs—crystal, metal, elemental or other trained manifestation—while the underlying species-neutral anatomy remains unchanged.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Oath of Devotion Paladin
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Classic sacred knight of honesty, courage and protection; luminous, disciplined and unmistakably holy.
+Narrative beat: Show sword and shield or similar knightly arms with a clean radiant smite and bright sacred emblem, body positioned between danger and an implied ally.
+Oath of Glory Paladin
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Heroic excellence, athleticism and legendary deeds; divine power celebrates physical achievement.
+Narrative beat: Show an athletic heroic pose or charging strike with laurel/heroic motifs and radiant energy emphasizing speed, strength and inspiring presence.
+Oath of Vengeance Paladin
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Relentless divine hunter focused on punishing a chosen foe; darker and more single-minded than Devotion.
+Narrative beat: Show a weapon leveled at an implied marked target, with a sharp oath sigil/brand hovering beyond the blade and a concentrated, almost predatory divine aura.
+Oath of the Ancients Paladin
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Oath protecting life, beauty and the ancient natural world; nature-inflected holy warrior rather than Druid.
+Narrative beat: Show plate/weapon entwined with symbolic vines and old-world runes while green-gold divine light forms roots/branches around a smite or protective aura.
+Oath of the Noble Genies Paladin
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e	Identity: Paladin channeling the elemental splendor of dao, djinn, efreet and marids; noble elemental covenant.
+Narrative beat: Show regal paladin gear with four controlled elemental motifs—earth, air, fire and water—emerging from jewel, vessel or oath emblem, one element dominant in the active strike.
+Oath of Conquest Paladin
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Imposing oath of victory and domination, weaponizing fear and uncompromising authority.
+Narrative beat: Show heavy dark plate, crown/banner motifs and an oppressive fear aura radiating from a raised weapon, with the Paladin advancing rather than defending.
+Oath of Redemption Paladin
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Protector who seeks de-escalation and takes harm for others, but remains capable of force when peace fails.
+Narrative beat: Show weapon lowered or sheathed, one open hand offering restraint while a strong translucent shield/aura intercepts an incoming attack.
+Oath of the Crown Paladin
+Retained current concept	Sword Coast Adventurer's Guide (2015)
+Official legacy 5e; no published replacement	Identity: Sworn defender of law, sovereign or civilization; steadfast guardian and controller.
+Narrative beat: Show formal heraldry/crown symbolism, planted shield stance and a ring of divine authority around the Paladin that visually 'holds the line.'
+Oath of the Watchers Paladin
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Sentinel against extraplanar intrusion, aberrations and supernatural infiltration.
+Narrative beat: Show planar ward glyphs, star/portal geometry and a vigilant shield or weapon pointed toward a small rift-like effect, clearly reading as a guardian of boundaries.
+Oath of the Open Sea Paladin
+Retained current concept	Tal'Dorei Campaign Setting Reborn; current D&D Beyond compatibility
+Partner / Critical Role	Identity: Oath of freedom, open horizons and the sea; mobile and liberating rather than naval authority.
+Narrative beat: Show nautical gear/cutlass or trident with a sweeping wave-and-mist aura around the Paladin, stance open and unrestrained rather than fortress-like.
+Oath of Revelry Paladin
+Retained current concept	Valda's Spire of Secrets: Player Pack 1 (2025)
+Partner / Mage Hand Press, 2024-rules update	Identity: Sacred celebration, fellowship and communal joy; party energy expressed through real paladin power.
+Narrative beat: Show an armored Paladin raising a magically conjured drink or celebratory symbol while music/light spirals into a smite or protective aura—festive but still combat-ready.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Beast Master Ranger
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Hunter whose bond with a primal beast is central to tactics and identity.
+Narrative beat: Because the asset must contain one character, show the companion as a translucent primal-beast projection or summoned spirit silhouette moving in sync with the Ranger's attack, not as a second physical character.
+Fey Wanderer Ranger
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Ranger touched by the Feywild, blending martial hunting with charm, psychic power and otherworldly grace.
+Narrative beat: Show practical ranger gear overlaid with subtle fey flowers, moths/butterflies, shimmering antler-like *energy motifs* or playful motes, plus a psychic glint around the weapon.
+Gloom Stalker Ranger
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Ambush predator of darkness and the Underdark: first-strike lethality, stealth and uncanny night movement.
+Narrative beat: Show the Ranger emerging from a pool of shadow with weapon already aimed, cloak dissolving into darkness and minimal visible glow so the build reads as a night hunter.
+Hunter Ranger
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Adaptable martial hunter specializing in reading prey and selecting the right technique; grounded, practical, monster-aware.
+Narrative beat: Show tracking tools, marked ammunition and a poised shot/strike with subtle tactical symbols identifying an implied target's weak point, keeping supernatural effects minimal.
+Winter Walker Ranger
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e	Identity: Cold-hardened monster hunter who turns winter itself into weapon and armor.
+Narrative beat: Show rime-covered armor/cloak and a weapon trailing concentrated frost, with breath-like cold and a thin protective ice layer forming as the Ranger advances through an implied blizzard.
+Horizon Walker Ranger
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Planar hunter who senses portals, teleports through combat and converts strikes into planar force.
+Narrative beat: Show small ring-shaped portals/planar windows close to the silhouette, with one foot or weapon passing through a short-range rift and force energy wrapping the attack.
+Monster Slayer Ranger
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Prepared supernatural hunter who studies monsters, marks weaknesses and carries specialized counters.
+Narrative beat: Show silvered stakes, monster-lore notes, vials/charms and a weapon aimed through a warding sigil that identifies an implied monster's weakness.
+Swarmkeeper Ranger
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Ranger accompanied by a magical swarm—bugs, birds, tiny spirits, leaves or another coherent swarm form—that pushes, moves and protects.
+Narrative beat: Show one clearly unified summoned swarm spiraling from the Ranger's cloak/weapon and physically redirecting the attack or movement; keep it magical and localized.
+Beastborne Ranger
+Retained current concept	Valda's Spire of Secrets: Player Pack 2 (2026)
+Partner / Mage Hand Press	Identity: Dark monster-hunter fantasy in which the Ranger temporarily becomes more beastlike in battle, with a cursed/lycanthropic edge.
+Narrative beat: Show a temporary predatory transformation overlay—spectral claws, elongated shadow-jaw, red hunting aura or beast silhouette—while the base body remains species-neutral outside the active power.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Arcane Trickster Rogue
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Rogue using illusion/enchantment and Mage Hand-style magic to create openings for stealth and theft.
+Narrative beat: Show dagger/shortbow readiness while a spectral hand steals, manipulates or distracts near the Rogue, with a small illusion decoy reinforcing the trick.
+Assassin Rogue
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Disguise, infiltration, poison and sudden lethal precision; preparation matters as much as the killing blow.
+Narrative beat: Show a poised silent strike with disguise components or a reversible cloak and discreet poison vial/tooling, emphasizing calculated surprise rather than flashy darkness magic.
+Soulknife Rogue
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Psionic infiltrator forming weapons and utility directly from the mind.
+Narrative beat: Show translucent psychic blades materializing from empty hands, with a narrow mental halo/telepathic ripple and no physical weapon competing with them.
+Thief Rogue
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Ultimate burglar and agile opportunist: climbing, locks, fast item use and stolen treasure.
+Narrative beat: Show lockpicks, rope/grapnel and a small stolen relic while the Rogue balances/climbs or pivots into a quick attack, grounded with almost no magic.
+Scion of the Three Rogue
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e	Identity: Rogue bound to the Dead Three—Bane, Bhaal and Myrkul—mixing murder, tyranny, death and terror with divine gifts.
+Narrative beat: Show three distinct ominous divine sigils/shadows behind the Rogue, one currently dominant, while the Rogue teleports toward an implied wounded foe in a blood-red/dark strike and fear aura.
+Inquisitive Rogue
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Detective and truth-reader who studies tells, clues and enemy weaknesses before striking.
+Narrative beat: Show notebook/lens or investigative tools and fine analytical lines tracing clues/weak points around the Rogue's gaze and weapon, with no supernatural spectacle required.
+Mastermind Rogue
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Manipulator, courtier and tactical schemer skilled in disguise, languages and directing others.
+Narrative beat: Show refined disguise pieces, coded notes/cards and a chessmaster-like hand gesture sending thin tactical lines toward off-frame allies/enemies, the Rogue remaining physically understated.
+Phantom Rogue
+Retained current concept	Ravenloft: The Horrors Within (2026)
+Official 5.5e revision	Identity: Death-touched Rogue who steals fragments of departing souls, consults the dead and can become spectral.
+Narrative beat: Show several small soul trinkets at the belt/hand, ghostly whispers around the head, and a partial incorporeal fade through the body as one wailing spirit lashes toward an implied second target.
+Scout Rogue
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Wilderness skirmisher and reconnaissance expert with Rogue mobility and Ranger-like fieldcraft.
+Narrative beat: Show map, trail markers and light survival gear with bow/shortblade, body already moving away from danger while maintaining a precise attack line.
+Swashbuckler Rogue
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Charismatic mobile duelist who isolates a foe through speed, bravado and fencing skill.
+Narrative beat: Show rapier flourish, confident taunting posture and coat/sash movement, with the Rogue slipping past an implied opponent rather than hiding in deep shadow.
+Arachnoid Stalker Rogue
+Retained current concept	Valda's Spire of Secrets: Player Pack 1 (2025)
+Partner / Mage Hand Press, 2024-rules update	Identity: Spider-inspired vigilante/infiltrator using webs, climbing and venomous tools without becoming biologically arachnid.
+Narrative beat: Show web-lines fired from gear or magic, a wall-crawling/crouched acrobatic stance and a venom-tipped weapon, with spider iconography confined to costume/effects.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Aberrant Sorcery Sorcerer
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Innate psychic/cosmic mutation of magic: telepathy, warped perception and alien influence, without permanent species markers.
+Narrative beat: Show the Sorcerer's magic bending space around the head/hands with impossible geometry, distant eye/tentacle-like *energy* silhouettes and a strong psychic pressure effect.
+Clockwork Sorcery Sorcerer
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Innate connection to cosmic order and Mechanus-like precision; magic imposes symmetry and predictability.
+Narrative beat: Show rotating clockwork rings/cogs and perfectly aligned geometric spell lines locking chaotic motes into order around the Sorcerer.
+Draconic Sorcery Sorcerer
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Innate draconic magic expressed through elemental force and dragon symbolism, not permanent dragon anatomy.
+Narrative beat: Show a spectral dragon silhouette or head formed from the Sorcerer's elemental spell, with scale patterns only on clothing/jewelry and the energy visibly originating from within.
+Wild Magic Sorcery Sorcerer
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Innate magic that surges unpredictably and reshapes itself mid-cast.
+Narrative beat: Show the Sorcerer trying to direct one spell while several unrelated, playful or dangerous magical anomalies erupt around it—color shifts, levitating objects, sudden portals, harmless oddities—without losing silhouette clarity.
+Spellfire Sorcery Sorcerer
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e	Identity: Direct connection to the Weave manifesting as radiant blue-white spellfire that can burn, heal and absorb magic.
+Narrative beat: Show brilliant blue-white spellfire streaming from the body/hands in a crown or mantle, with one arc consuming an incoming spell-like glyph and another becoming healing/searing energy.
+Divine Soul Sorcerer
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Innate divine magic rather than clerical devotion: celestial or sacred power is part of the Sorcerer's bloodline/destiny.
+Narrative beat: Show radiant power emerging directly from the Sorcerer with a spectral halo or temporary wing-like light pattern, no holy book or priestly ritual required.
+Shadow Sorcery Sorcerer
+Retained current concept	Ravenloft: The Horrors Within (2026)
+Official 5.5e revision	Identity: Innate Shadowfell/dark-dimension magic: supernatural darkness, a shadow beast, death-defying gloom and later incorporeal movement.
+Narrative beat: Show living darkness pouring from the Sorcerer, a summoned shadow-beast silhouette stalking close behind, and one edge of the body fading into an umbral, wall-passing form.
+Storm Sorcery Sorcerer
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Innate storm power expressed through wind, lightning, thunder and airborne movement.
+Narrative beat: Show wind lifting cloth/hair while lightning crawls directly from the Sorcerer's hands/body and a small cyclone underfoot implies storm-driven mobility.
+Heroic Sorcery Sorcerer
+Retained current concept	Valda's Spire of Secrets: Player Pack 2 (2026)
+Partner / Mage Hand Press	Identity: Sorcerous reincarnation/echo of a legendary hero, blending innate magic with heroic melee techniques.
+Narrative beat: Show a weapon-wielding Sorcerer using a melee cantrip or magical maneuver while a larger spectral 'past hero' silhouette mirrors the pose behind them, suggesting inherited legend rather than a patron.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Archfey Patron Warlock
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Pact with an Archfey: glamour, fear/charm, teleportation and capricious fey power.
+Narrative beat: Show the Warlock casting while a majestic, ambiguous fey patron apparition watches/advises from behind, with flowers, moths, thorns or moonlit mist forming the pact tether.
+Celestial Patron Warlock
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Pact with a celestial power, mixing Warlock magic with radiant damage and healing.
+Narrative beat: Show a luminous celestial patron silhouette behind the Warlock and a visible pact-thread feeding warm radiant light into one healing hand and one offensive beam.
+Fiend Patron Warlock
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Infernal/abyssal pact granting destructive fire, survival and dark bargains.
+Narrative beat: Show a looming fiendish patron silhouette in smoke/flame behind the Warlock, chains or contract-like sigils connecting to a hellfire spell; keep horns/wings on the apparition, not the character.
+Great Old One Patron Warlock
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Pact with an incomprehensible cosmic entity: telepathy, psychic distortion and alien awareness.
+Narrative beat: Show a vast but faint eye/tentacular/cosmic shape behind the Warlock as a patron presence, with warped perspective and psychic rings centered on the character's head and spell.
+Vestige Patron Warlock
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e	Identity: Pact with the remnant of a once-great or dying power, accompanied by a Vestige Companion whose form can reflect celestial, fiendish or undead origins.
+Narrative beat: Show a cracked-idol or fading-deity patron apparition behind the Warlock and a smaller spectral companion form at shoulder/side, both tethered to the same fragmentary rune.
+The Fathomless Warlock
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Pact with a power of the deep sea: tentacles, cold, pressure and abyssal ocean magic.
+Narrative beat: Show a huge spectral tentacle curling from dark water-like energy behind/around the Warlock, with bioluminescent deep-sea motifs and no bodily tentacles.
+The Genie Warlock
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Pact with a genie noble through a vessel, granting elemental power and luxurious otherworldly patronage.
+Narrative beat: Show a ring/lamp/bottle-like vessel emitting smoke that forms a regal genie patron silhouette, with one clear elemental identity—earth, air, fire or water—flowing into the Warlock's spell.
+The Hexblade Warlock
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Shadowfell-linked pact centered on a cursed/sentient weapon and martial hexes.
+Narrative beat: Show one ominous signature weapon as the visual anchor, its shadow stretching into a patron-like silhouette while curse sigils coil around the blade and the Warlock's target line.
+Undead Patron Warlock
+Retained current concept	Ravenloft: The Horrors Within (2026)
+Official 5.5e revision	Identity: Pact with an undead master such as lich, mummy, ghost or vampire; Form of Dread and necrotic resilience are central.
+Narrative beat: Show an undead patron apparition behind the Warlock and a temporary frightening Form-of-Dread overlay around the character, with necrotic energy and incorporeal edges but no permanent undead anatomy.
+The Undying Warlock
+Retained current concept	Sword Coast Adventurer's Guide (2015)
+Official legacy 5e; no published replacement	Identity: Pact with an immortal or death-defying being focused on refusing decay and surviving beyond normal limits; distinct from the more overtly horrifying Undead Patron.
+Narrative beat: Show a remote ancient patron silhouette—lich-like sage, deathless monarch or impossible immortal—while faded age/time sigils and preserved relics wrap the Warlock in a quiet anti-death aura.
+Future You Patron Warlock
+Retained current concept	Valda's Spire of Secrets: Player Pack 1 (2025)
+Partner / Mage Hand Press, 2024-rules update	Identity: The patron is literally an older/future version of the Warlock, using chronomancy and paradox to guide their past self.
+Narrative beat: Make the concept unmistakable: place a spectral older version of the same character immediately behind them as an adviser, pointing or correcting the present self while clock/time echoes and duplicated motion frames show the pact.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Abjurer Wizard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Specialist in wards, counter-magic and protective barriers.
+Narrative beat: Show the Wizard behind layered translucent shields covered in precise abjuration sigils, one barrier actively intercepting an implied spell while the spellbook remains open.
+Diviner Wizard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Specialist in foresight, omens and manipulating outcomes through knowledge of what will happen.
+Narrative beat: Show the Wizard consulting a spellbook/crystal/oracle device while several branching future afterimages or floating dice/card-like omens collapse into one chosen outcome.
+Evoker Wizard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Specialist in direct destructive spell energy with exceptional control over area effects.
+Narrative beat: Show a powerful elemental blast being sculpted into deliberate channels around empty safe zones, demonstrating precision rather than uncontrolled explosion.
+Illusionist Wizard
+Retained current concept	Player's Handbook (2024)
+Official 5.5e	Identity: Specialist in false images, deceptive sensory magic and reality-like phantasms.
+Narrative beat: Show two or three convincing duplicates/reflections of the same Wizard peeling away from the real figure, with mirror/glass-like glyphs revealing that the scene is manufactured.
+Bladesinger Wizard
+Retained current concept	Forgotten Realms: Heroes of Faerun (2025)
+Official 5.5e revision	Identity: Wizard who fuses elegant bladework, movement and full arcane spellcasting through the Bladesong.
+Narrative beat: Show a one-handed weapon used as spellcasting focus during a dance-like step, with arcane notes/runes tracing the blade's path and a spell released between strikes.
+Conjurer Wizard
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e revision	Identity: Specialist in summoning and transporting creatures/objects through controlled space.
+Narrative beat: Show an open spellbook and a tight portal/summoning circle beside the Wizard with a summoned creature represented as a translucent projection, maintaining the one-character asset rule.
+Enchanter Wizard
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e revision	Identity: Specialist in magical influence, fascination and mental control.
+Narrative beat: Show hypnotic concentric sigils or luminous threads extending from the Wizard's spellbook/gesture toward an implied mind off-frame, with calm precision rather than psychic alienness.
+Necromancer Wizard
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e revision	Identity: Specialist in death magic and controlled undead/familiar forces, grounded in scholarly necromancy.
+Narrative beat: Show a spellbook with bone/funerary formulae while spectral skeletal hands or a small ghostly familiar-like projection rises from a tight summoning sigil; keep the Wizard living and species-neutral.
+Transmuter Wizard
+Retained current concept	Arcana Unleashed (2026)
+Official 5.5e revision	Identity: Specialist in changing matter and properties, with alchemical/scientific arcane logic.
+Narrative beat: Show one object or stream of material visibly changing state—stone to metal, liquid to crystal, etc.—between the Wizard's hands, centered on a transmuter's-stone-like focus and formulae.
+Order of Scribes Wizard
+Retained current concept	Tasha's Cauldron of Everything (2020)
+Official legacy 5e; no published replacement	Identity: Wizard whose spellbook is a magical companion/mind and whose written spellcraft is unusually alive and flexible.
+Narrative beat: Show a hovering awakened spellbook and spectral quill writing by itself, with luminous text flowing off the pages and reshaping one spell's energy type.
+War Magic Wizard
+Retained current concept	Xanathar's Guide to Everything (2017)
+Official legacy 5e; no published replacement	Identity: Battlefield Wizard blending rapid defense, countering and destructive tactical magic.
+Narrative beat: Show the Wizard in a combat-ready stance with one compact ward snapping into place while the other hand launches a forceful spell, arcane formulae arranged like military targeting data.
+Magic Missile Mage Wizard
+Retained current concept	Valda's Spire of Secrets: Player Pack 2 (2026)
+Partner / Mage Hand Press	Identity: Obsessive specialist in Magic Missile, modifying the spell into volleys, maneuvers and oversized signature shots.
+Narrative beat: Show numerous identical homing force darts orbiting the Wizard in controlled trajectories, with one much larger 'giga-missile' forming as the obvious subclass signature.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Alchemist Artificer
+Retained current concept	Eberron: Forge of the Artificer (2025)
+Official 5.5e revision	Identity: Magical chemist using elixirs, reagents and transmutative mixtures for damage, healing and utility.
+Narrative beat: Show a bandolier/workbench-on-the-go of labeled vials and one active flask changing color/energy as it is thrown or poured into a magical effect.
+Armorer Artificer
+Retained current concept	Eberron: Forge of the Artificer (2025)
+Official 5.5e revision	Identity: Artificer whose Arcane Armor is the invention: modular magical suit configured for protection or stealth.
+Narrative beat: Show the character integrated into rune-lit engineered armor with an active gauntlet/lightning launcher or stealth configuration, visible plates shifting mechanically around the body.
+Artillerist Artificer
+Retained current concept	Eberron: Forge of the Artificer (2025)
+Official 5.5e revision	Identity: Arcane artillery specialist using an Eldritch Cannon and force/flame/projectile engineering.
+Narrative beat: Show a compact shoulder-, wrist-, or ground-adjacent cannon-like arcane device as equipment, firing alongside a wand/tool while runes make the device obviously magical machinery.
+Battle Smith Artificer
+Retained current concept	Eberron: Forge of the Artificer (2025)
+Official 5.5e revision	Identity: Weapon-focused magical engineer partnered with a Steel Defender; intelligence-driven martial craft.
+Narrative beat: Show an infused weapon and repair tools, with the Steel Defender represented as a translucent blueprint/holographic construct silhouette behind or beside the Artificer to preserve the one-character rule.
+Cartographer Artificer
+Retained current concept	Eberron: Forge of the Artificer (2025)
+Official 5.5e	Identity: Magical mapmaker who turns routes, spatial information and navigation into active arcane tools.
+Narrative beat: Show a floating luminous map/atlas projected from drafting tools, with glowing route lines curling into short portal/path effects around the Artificer's feet and hands.
+Forge Adept Artificer
+Retained current concept	Exploring Eberron, 2024-rules revision (D&D Beyond current edition)
+Partner / KB Presents	Identity: Master weapon-forger whose signature bonded weapon is the centerpiece of their craft.
+Narrative beat: Show the Artificer actively engraving/infusing one exceptional weapon with forge runes, hammer/tongs or smith tools still in hand as magical heat travels through the blade.
+Maverick Artificer
+Retained current concept	Exploring Eberron, 2024-rules revision (D&D Beyond current edition)
+Partner / KB Presents	Identity: Experimental generalist who steals ideas from many magical traditions and rapidly prototypes unconventional solutions.
+Narrative beat: Show several small modular prototypes—wands, vials, rune-plates, scroll cartridges—around a central multi-tool, with the Artificer actively swapping one device into another function.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Order of the Ghostslayer Blood Hunter
+Retained current concept	Critical Role Blood Hunter, current D&D Beyond version
+Partner / Critical Role	Identity: Blood Hunter specialized against undead and incorporeal threats, with hemocraft especially effective as radiant/ghost-hunting power.
+Narrative beat: Show a crimson rite burning along the weapon but shifting toward pale/radiant ghost-hunter light, while a spectral undead trace recoils from a warding sigil or lantern.
+Order of the Lycan Blood Hunter
+Retained current concept	Critical Role Blood Hunter, current D&D Beyond version
+Partner / Critical Role	Identity: Blood Hunter who controls a temporary lycanthropic hybrid transformation while maintaining hemocraft discipline.
+Narrative beat: Show an active but controlled transformation overlay—spectral claws, enlarged predatory shadow and partial temporary bestial features—plus the unmistakable crimson rite; do not make the baseline character permanently non-human.
+Order of the Mutant Blood Hunter
+Retained current concept	Critical Role Blood Hunter, current D&D Beyond version
+Partner / Critical Role	Identity: Alchemical Blood Hunter who drinks mutagens for dangerous temporary physical/mental enhancements.
+Narrative beat: Show several mutagen vials, one freshly consumed, with controlled temporary changes represented by glowing veins, altered eye-light or muscular/arcane overlays while the rite-empowered weapon remains visible.
+Order of the Profane Soul Blood Hunter
+Retained current concept	Critical Role Blood Hunter, current D&D Beyond version
+Partner / Critical Role	Identity: Blood Hunter combining hemocraft with a Warlock-like pact and occult spellcasting.
+Narrative beat: Show a crimson rite weapon in front and an unmistakable patron apparition/tether behind the hunter, with one eldritch spell effect linking blood magic and pact magic in the same action.
+Current combination	Latest subclass source / status	Visual identity + narrative beat
+Pistolero Gunslinger
+Retained current concept	Valda's Spire of Secrets: Player Pack 2 (2026)
+Partner / Mage Hand Press	Identity: Six-shooter specialist built around fan-the-hammer speed, close-quarters gunplay, showdown precision and bullet-time flair.
+Narrative beat: Show a revolver/six-shooter as the hero object, multiple muzzle-flash or casing afterimages from fan-the-hammer fire, and curved bullet-time trails around a confident duelist stance.
